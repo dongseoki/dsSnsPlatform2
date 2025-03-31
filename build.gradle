@@ -86,6 +86,13 @@ project(':board') { // 컴파일 시 multi-module-database 로딩
     }
 }
 
+project(':like') { // 컴파일 시 multi-module-database 로딩
+    dependencies {
+        implementation project(':common')
+    }
+}
+
 project(':common') { // multi-module-databse는 bootJar로 패키징 할 필요 없음
     bootJar { enabled = false }
+//    jar{ enabled = true }
 }
