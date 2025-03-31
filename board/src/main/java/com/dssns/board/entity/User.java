@@ -13,11 +13,13 @@ import jakarta.persistence.OneToMany;
 import java.util.ArrayList;
 import java.util.List;
 import lombok.AccessLevel;
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
+import lombok.experimental.SuperBuilder;
 import org.hibernate.annotations.DynamicInsert;
 import org.hibernate.annotations.DynamicUpdate;
 import org.springframework.util.ObjectUtils;
@@ -27,7 +29,7 @@ import org.springframework.util.ObjectUtils;
 @Setter
 @DynamicInsert
 @DynamicUpdate
-@Builder
+@SuperBuilder
 @ToString
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class User extends BaseEntity {
