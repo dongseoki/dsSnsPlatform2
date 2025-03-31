@@ -1,0 +1,3 @@
+rootProject.name = 'dsSnsPlatform2'
+include 'board'
+include 'common'

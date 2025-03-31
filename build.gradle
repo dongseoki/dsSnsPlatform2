@@ -1,0 +1,92 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.3.7' apply false
+    id 'io.spring.dependency-management' version '1.1.7' apply false
+    id "org.flywaydb.flyway" version "7.2.0"
+}
+
+repositories {
+    mavenCentral()
+}
+
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'java-library'
+    apply plugin: 'org.springframework.boot'
+    apply plugin: 'io.spring.dependency-management'
+
+    group = 'com.dssns'
+    version = '0.0.1-SNAPSHOT'
+
+    java {
+        toolchain {
+            languageVersion = JavaLanguageVersion.of(17)
+        }
+    }
+
+    repositories {
+        mavenCentral()
+    }
+
+    configurations {
+        compileOnly {
+            extendsFrom annotationProcessor
+        }
+    }
+
+    dependencies {
+
+        // kafka
+        // https://mvnrepository.com/artifact/org.springframework.kafka/spring-kafka
+        implementation group: 'org.springframework.kafka', name: 'spring-kafka', version: '3.3.2'
+        // https://mvnrepository.com/artifact/org.apache.kafka/kafka-clients
+        implementation group: 'org.apache.kafka', name: 'kafka-clients', version: '3.9.0'
+
+        implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+
+        implementation 'org.springframework.boot:spring-boot-starter-validation'
+
+        implementation 'org.springframework.boot:spring-boot-starter-web'
+        implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.0.2'
+
+        developmentOnly 'org.springframework.boot:spring-boot-devtools'
+        compileOnly 'org.projectlombok:lombok'
+
+        // binding
+        //자바 역직렬화 문제 해결 패키지
+        implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310'
+        implementation 'com.fasterxml.jackson.core:jackson-databind'
+
+        // persistence
+        runtimeOnly 'com.mysql:mysql-connector-j'
+        implementation 'org.flywaydb:flyway-mysql'
+        implementation 'org.flywaydb:flyway-core'
+
+        annotationProcessor 'org.projectlombok:lombok'
+        testImplementation 'org.springframework.boot:spring-boot-starter-test'
+        testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+        testImplementation 'org.springframework.kafka:spring-kafka-test'
+    }
+
+    tasks.named('test') {
+        useJUnitPlatform()
+    }
+
+    flyway {  // 3)
+        url = 'jdbc:mysql://localhost:3307/ds_sns?useSSL=false&serverTimezone=UTC&characterEncoding=utf8'
+        user = 'root'
+        password = 'root'
+        driver = 'com.mysql.jdbc.Driver'
+    }
+}
+
+project(':board') { // 컴파일 시 multi-module-database 로딩
+    dependencies {
+        implementation project(':common')
+    }
+}
+
+project(':common') { // multi-module-databse는 bootJar로 패키징 할 필요 없음
+    bootJar { enabled = false }
+    jar { enabled = true }
+}
