@@ -1,0 +1,18 @@
+services:
+  redis:
+    hostname: redis:7.4.2
+    container_name: redis_for_alarm
+    image: redis:latest
+    command: redis-server --requirepass 1234 --port 6379
+    ports:
+      - 6382:6379
+
+  mysql:
+    image: mysql:8.0
+    container_name: mysql_for_alarm
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - 3309:3306
+    volumes:
+      - ./infra/mysql/init.sql:/docker-entrypoint-initdb.d/init.sql

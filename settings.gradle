@@ -2,4 +2,5 @@ rootProject.name = 'dsSnsPlatform2'
 include 'board'
 include 'common'
 include 'like'
+include 'alarm'
 
