@@ -9,6 +9,8 @@
 
 # 위 명령어를 실행하면 입력 대기 상태가 됩니다. 메시지를 입력하고 Enter를 누르면 해당 메시지가 토픽에 발행됩니다.
 
+
+/opt/bitnami/kafka/bin/kafka-topics.sh --delete --topic notification-events --bootstrap-server localhost:9092
 ```
 
 ### 쉘 B

@@ -11,10 +11,12 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import java.time.Instant;
+import lombok.ToString;
 
 @Builder
 @Getter
 @NoArgsConstructor
+@ToString
 public class NotificationEvent {
   private EventType eventType;      // LIKE, COMMENT
   private Long receiverUserId;      // 알림을 받을 사용자 ID
@@ -22,8 +24,6 @@ public class NotificationEvent {
   private Long eventSourceId;       // 이벤트 대상 ID (게시글, 댓글 등)
   private EventSourceType eventSourceType; // 대상 유형 (POST, COMMENT)
   private String message;           // 알람 메시지
-  @JsonSerialize(using = InstantSerializer.class)
-  @JsonDeserialize(using = InstantDeserializer.class)
   private Instant createdAt;        // 생성 시간
 
   public NotificationEvent(EventType eventType, Long receiverUserId, Long eventUserId,
