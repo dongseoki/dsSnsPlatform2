@@ -32,7 +32,8 @@ public enum ServiceExceptionCode {
           "ALREADY_USED_COUPON", "이미 사용된 Coupon입니다."), NOT_FOUND_COUPON_USER("NOT_FOUND_COUPON_USER", "Coupon User를 찾을 수 없습니다.")
   , POST_NOT_FOUND("POST_NOT_FOUND", "게시글을 찾을 수 없습니다.")
   , COMMENT_NOT_FOUND("COMMENT_NOT_FOUND", "댓글을 찾을 수 없습니다.")
-  , LIKE_NOT_FOUND("LIKE_NOT_FOUND", "좋아요를 찾을 수 없습니다.");
+  , LIKE_NOT_FOUND("LIKE_NOT_FOUND", "좋아요를 찾을 수 없습니다.")
+  , INVALID_NOTIFICATION_ID("INVALID_NOTIFICATION_ID", "Notification ID가 유효하지 않습니다.");
 
   private final String code;
   private final String message;
