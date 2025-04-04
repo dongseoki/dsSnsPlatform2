@@ -28,10 +28,10 @@ public class LikeController {
   	@Operation(summary = "[o]게시글 좋아요", description = "게시글 좋아요 API")
 	@PostMapping("/posts/{postNo}/like")
 //	@UserRequired
-	public ApiResponse<Void> likePost(@PathVariable("postNo") Long postNo, @RequestParam Long userNo){
+	public ApiResponse<Void> likePost(@PathVariable("postNo") Long postNo, @RequestParam Long userNo, @RequestParam Long postCreatorUserId){
 		log.info(">>> PostController.likePost");
 //		Long userNo = AuthUtil.getUserNoFromAuthentication();
-			likeService.likePost(userNo, postNo);
+			likeService.likePost(userNo, postNo, postCreatorUserId);
 //		likeService.likePost(postNo);
 		return ApiResponse.Success();
 	}
@@ -60,9 +60,9 @@ public class LikeController {
 
 	@Operation(summary = "[o]댓글 좋아요", description = "댓글 좋아요 API")
 	@PostMapping("/comments/{commentNo}/like")
-	public ApiResponse<Void> likeComment(@PathVariable("commentNo") Long commentNo, @RequestParam Long userNo) {
+	public ApiResponse<Void> likeComment(@PathVariable("commentNo") Long commentNo, @RequestParam Long userNo, @RequestParam Long commentCreatorUserId) {
 		log.info(">>> PostController.likeComment");
-		likeService.likeComment(userNo, commentNo);
+		likeService.likeComment(userNo, commentNo, commentCreatorUserId);
 		return ApiResponse.Success();
 	}
 

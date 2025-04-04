@@ -115,8 +115,8 @@ public class PostService {
           .eventType(EventType.COMMENT)
           .receiverUserId(post.getCreatedBy())
           .eventUserId(addCommentRequestDto.getCreateUserNo())
-          .eventSourceId(savedComment.getId())
-          .eventSourceType(EventSourceType.COMMENT)
+          .eventSourceId(postNo)
+          .eventSourceType(EventSourceType.POST)
           .message(String.format("사용자 번호 %d님이 당신의 게시글에 댓글을 남겼습니다.", addCommentRequestDto.getCreateUserNo()))
           .createdAt(Instant.now())
           .build();
