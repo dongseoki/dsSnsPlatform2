@@ -7,40 +7,64 @@ import com.dssns.common.event.enums.EventSourceType;
 import com.dssns.common.event.enums.EventType;
 import com.dssns.common.exception.ServiceException;
 import com.dssns.common.exception.ServiceExceptionCode;
+import com.dssns.common.user_activity.UserActivityWish;
 import com.dssns.like.entity.Like;
 import com.dssns.like.repository.LikeRepository;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import java.time.Instant;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 @Service
 @Slf4j
 @RequiredArgsConstructor
 public class LikeService {
+  private static final Logger userActivityLogger = LoggerFactory.getLogger("USER_ACTIVITY_WISH_LOGGER");
   private final LikeRepository likeRepository;
   private final NotificationEventProducer notificationEventProducer;
+  private final ObjectMapper objectMapper;
 
-  public void likePost(Long userNo, Long postNo, Long postCreatorUserId) {
+  public void likePost(Long userId, Long postId, Long postCreatorUserId) {
     // TODO: Validate userNo and postNo
-    log.info("Liking post with postNo: {} by userNo: {}", postNo, userNo);
+    log.info("Liking post with postNo: {} by userNo: {}", postId, userId);
     Like newLike =
-    likeRepository.findByRefTblAndRefIdAndCreatedByAndDelYnIs("post", postNo, userNo, YesOrNo.N)
-        .orElse(Like.builder().refTbl("post").refId(postNo).createdBy(userNo).build());
+    likeRepository.findByRefTblAndRefIdAndCreatedByAndDelYnIs("post", postId, userId, YesOrNo.N)
+        .orElse(Like.builder().refTbl("post").refId(postId).createdBy(userId).build());
 
-    likeRepository.save(newLike);
-    NotificationEvent notificationEvent = NotificationEvent.builder()
-        .eventType(EventType.LIKE)
-        // FIXME  receiverUserId를 적절히 수정해야한다. Api를 통해서 받아온 postNo를 사용하도록 추후 조치 필요.
-        .receiverUserId(postCreatorUserId)
-        .eventUserId(userNo)
-        .eventSourceId(postNo)
-        .eventSourceType(EventSourceType.POST)
-        .message(String.format("User %d liked your post %d", userNo, postNo))
-        .createdAt(Instant.now())
-        .build();
 
-    notificationEventProducer.publishNotificationEventCreated(notificationEvent);
+      likeRepository.save(newLike);
+    try{
+      NotificationEvent notificationEvent = NotificationEvent.builder()
+          .eventType(EventType.LIKE)
+          // FIXME  receiverUserId를 적절히 수정해야한다. Api를 통해서 받아온 postNo를 사용하도록 추후 조치 필요.
+          .receiverUserId(postCreatorUserId)
+          .eventUserId(userId)
+          .eventSourceId(postId)
+          .eventSourceType(EventSourceType.POST)
+          .message(String.format("User %d liked your post %d", userId, postId))
+          .createdAt(Instant.now())
+          .build();
+
+      notificationEventProducer.publishNotificationEventCreated(notificationEvent);
+    } catch (Exception e) {
+      log.error("Error while public event: {}", e.getMessage());
+    }
+
+    try{
+      UserActivityWish userActivityWish = UserActivityWish.builder()
+          .eventType("like")
+          .targetType("post")
+          .targetId(String.valueOf(postId))
+          .timestamp(Instant.now().toString())
+          .userId(String.valueOf(userId)).build();
+      userActivityLogger.info(objectMapper.writeValueAsString(userActivityWish));
+    }
+    catch (Exception e){
+      log.error("Error while create user activity log: {}", e.getMessage());
+    }
 
   }
 
