@@ -10,7 +10,7 @@
 ```js
 let logEventCommon = {
     "event_id" : "550e8400-e29b-41d4-a716-446655440000"
-    // event_id는 UUID로 생성합니다.
+    // event_id는 UUID로 생성합니다. 
     , "timestamp" : "2025-03-03T10:15:30Z"
     // 이벤트 발생 시간 (ISO 8601)
     , "user_id" : "1"

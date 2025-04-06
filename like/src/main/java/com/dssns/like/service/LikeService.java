@@ -7,6 +7,7 @@ import com.dssns.common.event.enums.EventSourceType;
 import com.dssns.common.event.enums.EventType;
 import com.dssns.common.exception.ServiceException;
 import com.dssns.common.exception.ServiceExceptionCode;
+import com.dssns.common.user_activity.UserActivityCommon;
 import com.dssns.common.user_activity.UserActivityWish;
 import com.dssns.like.entity.Like;
 import com.dssns.like.repository.LikeRepository;
@@ -27,7 +28,7 @@ public class LikeService {
   private final NotificationEventProducer notificationEventProducer;
   private final ObjectMapper objectMapper;
 
-  public void likePost(Long userId, Long postId, Long postCreatorUserId) {
+  public void likePost(Long userId, Long postId, Long postCreatorUserId, UserActivityCommon userActivityCommon) {
     // TODO: Validate userNo and postNo
     log.info("Liking post with postNo: {} by userNo: {}", postId, userId);
     Like newLike =
@@ -54,12 +55,8 @@ public class LikeService {
     }
 
     try{
-      UserActivityWish userActivityWish = UserActivityWish.builder()
-          .eventType("like")
-          .targetType("post")
-          .targetId(String.valueOf(postId))
-          .timestamp(Instant.now().toString())
-          .userId(String.valueOf(userId)).build();
+      UserActivityWish userActivityWish
+          = new UserActivityWish("post", String.valueOf(postId), String.valueOf(userId), userActivityCommon);
       userActivityLogger.info(objectMapper.writeValueAsString(userActivityWish));
     }
     catch (Exception e){

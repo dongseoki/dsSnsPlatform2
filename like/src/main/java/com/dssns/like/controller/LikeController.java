@@ -1,5 +1,6 @@
 package com.dssns.like.controller;
 
+import com.dssns.common.user_activity.UserActivityUtil;
 import com.dssns.common.web.ApiResponse;
 import com.dssns.like.service.LikeService;
 import io.swagger.v3.oas.annotations.Operation;
@@ -32,7 +33,7 @@ public class LikeController {
 	public ApiResponse<Void> likePost(@PathVariable("postNo") Long postNo, @RequestParam Long userNo, @RequestParam Long postCreatorUserId, HttpServletRequest httpServletRequest){
 		log.info(">>> PostController.likePost");
 //		Long userNo = AuthUtil.getUserNoFromAuthentication();
-			likeService.likePost(userNo, postNo, postCreatorUserId);
+			likeService.likePost(userNo, postNo, postCreatorUserId, UserActivityUtil.createUserActivityCommon(httpServletRequest, "like"));
 //		likeService.likePost(postNo);
 		return ApiResponse.Success();
 	}
