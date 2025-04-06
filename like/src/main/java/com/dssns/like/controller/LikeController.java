@@ -4,6 +4,7 @@ import com.dssns.common.web.ApiResponse;
 import com.dssns.like.service.LikeService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
+import jakarta.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
@@ -28,7 +29,7 @@ public class LikeController {
   	@Operation(summary = "[o]게시글 좋아요", description = "게시글 좋아요 API")
 	@PostMapping("/posts/{postNo}/like")
 //	@UserRequired
-	public ApiResponse<Void> likePost(@PathVariable("postNo") Long postNo, @RequestParam Long userNo, @RequestParam Long postCreatorUserId){
+	public ApiResponse<Void> likePost(@PathVariable("postNo") Long postNo, @RequestParam Long userNo, @RequestParam Long postCreatorUserId, HttpServletRequest httpServletRequest){
 		log.info(">>> PostController.likePost");
 //		Long userNo = AuthUtil.getUserNoFromAuthentication();
 			likeService.likePost(userNo, postNo, postCreatorUserId);
