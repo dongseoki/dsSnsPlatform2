@@ -3,7 +3,7 @@
 <!--  일반 로그 설정-->
   <!--로그 파일 저장 위치-->
   <property name="LOGS_PATH" value="./logs/api"/>
-  <property name="LOGS_API_FILE_NAME" value="like_api"/>
+  <property name="LOGS_API_FILE_NAME" value="alarm_api"/>
 
   <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
     <layout class="ch.qos.logback.classic.PatternLayout">
@@ -50,26 +50,7 @@
   <logger name="jdbc.resultsettable" level="DEBUG"/>
   <logger name="jdbc.connection" level="OFF"/>
 
-<!--  사용자 활동 로그 wish-->
   <property name="LOGS_USER_ACTIVITY_PATH" value="./logs/user_activity"/>
-  <property name="LOGS_USER_ACTIVITY_WISH_FILE_NAME" value="user_wish"/>
-  <!-- 사용자 활동 로그를 위한 파일 앱렌더 설정 -->
-  <appender name="USER_ACTIVITY_WISH_APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
-    <file>${LOGS_USER_ACTIVITY_PATH}/${LOGS_USER_ACTIVITY_WISH_FILE_NAME}.log</file>
-    <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-      <fileNamePattern>${LOGS_USER_ACTIVITY_PATH}/${LOGS_USER_ACTIVITY_WISH_FILE_NAME}.%d{yyyy-MM-dd}.log</fileNamePattern>
-      <maxHistory>30</maxHistory>
-    </rollingPolicy>
-    <encoder>
-      <pattern>%msg%n</pattern>
-    </encoder>
-  </appender>
-
-  <!-- 사용자 활동 로그를 위한 로거 설정 -->
-  <logger name="USER_ACTIVITY_WISH_LOGGER" level="INFO" additivity="false">
-    <appender-ref ref="USER_ACTIVITY_WISH_APPENDER"/>
-  </logger>
-
   <property name="LOGS_USER_ACTIVITY_ACCESS_FILE_NAME" value="user_access"/>
   <!-- 사용자 활동 로그를 위한 파일 앱렌더 설정 -->
   <appender name="USER_ACTIVITY_ACCESS_APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">

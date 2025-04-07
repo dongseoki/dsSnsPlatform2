@@ -1,4 +1,3 @@
-
 ## 로그 이벤트의 설계.
 ### 로그 저장 경로.
 * 로그의 저장 경로는 임시적으로
@@ -40,7 +39,7 @@ let logEventCommon = {
 let logEventClick = {
     "event_type" : "click"
   , "targetType": "post_delete"
-  // 무엇을 클릭했지? : 게시글 삭제 버튼, 댓글 완료 버튼 클릭, 좋아요 클릭, 좋아요 취소, 삭제 버튼 등등. // post | comment | like_button
+  // 무엇을 클릭했지? : 게시글 삭제 버튼, 댓��� 완료 버튼 클릭, 좋아요 클릭, 좋아요 취소, 삭제 버튼 등등. // post | comment | like_button
   , "targetId": "67890"
   // 타겟에 대한 유일한 구별 식별자. 
   // 타겟 식별자가 있을 경우 작업.
@@ -115,15 +114,6 @@ let logEventAccess = {
   "event_type" : "access"
   , "method": "GET"
   , "endpoint": "/posts/123" // api endpoint
-  , "queryString": {
-      "key": "value"
-  } // 요청 쿼리스트링
-  , "requestBody": {
-      "key": "value"
-  } // 요청 body
-  , "responseBody": {
-      "key": "value"
-  } // 응답 body
   , "statusCode": 200 // http 상태코드.
   , "responseTime": 120 // ms 단위.
   , "request_uid" : "550e8400-e29b-41d4-a716-446655440000"
@@ -133,3 +123,7 @@ let logEventAccess = {
 
 ##### 계획.
 * 해당 작업은 인터셉터의 afterCompletion에서 작업 할 예정.
+* 로그 파일명은 user_access_xxxx.log 형식으로 저장.
+* xxxx는 yyyyMMdd_{no} 형식으로 저장.
+
+`

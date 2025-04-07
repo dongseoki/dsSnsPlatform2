@@ -1,0 +1,25 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<configuration>-->
+<!--FIXME 동작안하는 이유 추후 파악-->
+<!--  &lt;!&ndash;  사용자 활동 로그 access&ndash;&gt;-->
+<!--  <property name="LOGS_USER_ACTIVITY_PATH" value="./logs/user_activity"/>-->
+
+<!--  <property name="LOGS_USER_ACTIVITY_ACCESS_FILE_NAME" value="user_access"/>-->
+<!--  &lt;!&ndash; 사용자 활동 로그를 위한 파일 앱렌더 설정 &ndash;&gt;-->
+<!--  <appender name="USER_ACTIVITY_ACCESS_APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">-->
+<!--    <file>${LOGS_USER_ACTIVITY_PATH}/${LOGS_USER_ACTIVITY_ACCESS_FILE_NAME}.log</file>-->
+<!--    <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">-->
+<!--      <fileNamePattern>${LOGS_USER_ACTIVITY_PATH}/${LOGS_USER_ACTIVITY_ACCESS_FILE_NAME}.%d{yyyy-MM-dd}.log</fileNamePattern>-->
+<!--      <maxHistory>30</maxHistory>-->
+<!--    </rollingPolicy>-->
+<!--    <encoder>-->
+<!--      <pattern>%msg%n</pattern>-->
+<!--    </encoder>-->
+<!--  </appender>-->
+
+<!--  &lt;!&ndash; 사용자 활동 로그를 위한 로거 설정 &ndash;&gt;-->
+<!--  <logger name="USER_ACTIVITY_ACCESS_LOGGER" level="INFO" additivity="false">-->
+<!--    <appender-ref ref="USER_ACTIVITY_ACCESS_APPENDER"/>-->
+<!--  </logger>-->
+
+<!--</configuration>-->
