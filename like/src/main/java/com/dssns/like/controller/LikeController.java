@@ -1,5 +1,6 @@
 package com.dssns.like.controller;
 
+import com.dssns.common.event.enums.EventType;
 import com.dssns.common.user_activity.UserActivityUtil;
 import com.dssns.common.web.ApiResponse;
 import com.dssns.like.service.LikeService;
@@ -33,7 +34,13 @@ public class LikeController {
 	public ApiResponse<Void> likePost(@PathVariable("postNo") Long postNo, @RequestParam Long userNo, @RequestParam Long postCreatorUserId, HttpServletRequest httpServletRequest){
 		log.info(">>> PostController.likePost");
 //		Long userNo = AuthUtil.getUserNoFromAuthentication();
-			likeService.likePost(userNo, postNo, postCreatorUserId, UserActivityUtil.createUserActivityCommon(httpServletRequest, "like"));
+			likeService.likePost(userNo
+					, postNo
+					, postCreatorUserId
+					, UserActivityUtil.createUserActivityCommon(httpServletRequest
+							, EventType.LIKE.getValue()
+						)
+			);
 //		likeService.likePost(postNo);
 		return ApiResponse.Success();
 	}
@@ -62,9 +69,16 @@ public class LikeController {
 
 	@Operation(summary = "[o]댓글 좋아요", description = "댓글 좋아요 API")
 	@PostMapping("/comments/{commentNo}/like")
-	public ApiResponse<Void> likeComment(@PathVariable("commentNo") Long commentNo, @RequestParam Long userNo, @RequestParam Long commentCreatorUserId) {
+	public ApiResponse<Void> likeComment(
+			@PathVariable("commentNo") Long commentNo
+			, @RequestParam Long userNo
+			, @RequestParam Long commentCreatorUserId
+			, HttpServletRequest httpServletRequest) {
 		log.info(">>> PostController.likeComment");
-		likeService.likeComment(userNo, commentNo, commentCreatorUserId);
+		likeService.likeComment(userNo
+				, commentNo
+				, commentCreatorUserId
+				, UserActivityUtil.createUserActivityCommon(httpServletRequest, EventType.LIKE.getValue()));
 		return ApiResponse.Success();
 	}
 
