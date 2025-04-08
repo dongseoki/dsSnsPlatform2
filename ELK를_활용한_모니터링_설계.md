@@ -35,5 +35,12 @@
 * 일부 잘된거 이미지 캡처
 * 필요시 작동 방법 README 정리.
 
+# 참고시
+* https://www.notion.so/1-ElasticSearch-1b39bf7c712281298670e1d68f0541af#1b39bf7c712281408631eace31758cc9
+* 11주 1일차 자료를 메인으로 차고.
+* 11주차 교재는 다음과 같음.
+* https://www.notion.so/JAVA_11-_-1b39bf7c71228000a226f996a3d330f6
+
 # 참고자료
-https://chatgpt.com/share/67f0dea1-c06c-8011-bd45-ba0bbe7df90d
+* https://chatgpt.com/share/67f0dea1-c06c-8011-bd45-ba0bbe7df90d
+* https://github.com/KDT-Java/sparta-java-1-project-week-11-3-elk-pipelines
