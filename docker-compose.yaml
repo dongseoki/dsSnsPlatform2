@@ -9,6 +9,11 @@ services:
       - zookeeper_data:/bitnami/zookeeper
     networks:
       - order-network
+    healthcheck:
+      test: ["CMD-SHELL", "echo ruok | nc localhost 2181"]
+      interval: 5s
+      timeout: 5s
+      retries: 3
 
   kafka:
     image: bitnami/kafka:3.5.1
@@ -27,7 +32,8 @@ services:
       - KAFKA_CFG_NUM_PARTITIONS=3
       - KAFKA_CFG_DEFAULT_REPLICATION_FACTOR=1
     depends_on:
-      - zookeeper
+      zookeeper:
+        condition: service_healthy
     volumes:
       - kafka_data:/bitnami/kafka
     networks:
