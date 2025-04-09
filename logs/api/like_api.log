@@ -1,0 +1,2008 @@
+[2025-04-07 02:53:54:21383929][HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h57m42s131ms).
+[2025-04-07 05:13:24:29754050][HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h19m30s120ms).
+[2025-04-07 08:01:21:39831237][HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h47m57s187ms).
+[2025-04-07 09:15:15:44265376][HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h13m54s140ms).
+[2025-04-07 09:28:23:45052472][HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m7s96ms).
+[2025-04-07 11:54:54:53843877][HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h26m1s14ms).
+[2025-04-07 13:26:25:59334532][HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h31m30s654ms).
+[2025-04-07 15:58:54:68483871][HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h32m29s340ms).
+[2025-04-07 16:14:48:69437993][HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s122ms).
+[2025-04-07 17:15:05:73054485][HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h16s492ms).
+[2025-04-07 18:51:19:78828866][HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h36m14s380ms).
+[2025-04-07 18:52:08:78878290][HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49s424ms).
+[2025-04-07 19:01:57:79466490][HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m48s201ms).
+[2025-04-07 19:23:20:80749494][HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=21m23s3ms).
+[2025-04-07 19:54:35:82624895][HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m44s612ms).
+[2025-04-07 20:51:02:86011486][HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=55m26s532ms).
+[2025-04-07 20:55:40:86289818][HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m38s332ms).
+[2025-04-07 21:28:15:88245362][File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 6 class path changes (0 additions, 0 deletions, 6 modifications)
+[2025-04-07 21:28:15:88245389][Thread-1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8202"]
+[2025-04-07 21:28:15:88245405][Thread-1] INFO  o.a.k.c.producer.KafkaProducer - [Producer clientId=like-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+[2025-04-07 21:28:16:88245411][Thread-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+[2025-04-07 21:28:16:88245411][Thread-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+[2025-04-07 21:28:16:88245411][Thread-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+[2025-04-07 21:28:16:88245411][Thread-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+[2025-04-07 21:28:16:88245412][Thread-1] INFO  o.a.k.common.utils.AppInfoParser - App info kafka.producer for like-producer-1 unregistered
+[2025-04-07 21:28:16:88245418][Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2025-04-07 21:28:16:88245429][Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[2025-04-07 21:28:16:88245440][Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[2025-04-07 21:28:16:88245692][restartedMain] INFO  com.dssns.like.LikeApplication - Starting LikeApplication using Java 17.0.13 with PID 50136 (/Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2/like/build/classes/java/main started by dongseoklee in /Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2)
+[2025-04-07 21:28:16:88245692][restartedMain] INFO  com.dssns.like.LikeApplication - Starting LikeApplication using Java 17.0.13 with PID 50136 (/Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2/like/build/classes/java/main started by dongseoklee in /Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2)
+[2025-04-07 21:28:16:88245692][restartedMain] DEBUG com.dssns.like.LikeApplication - Running with Spring Boot v3.3.7, Spring v6.1.16
+[2025-04-07 21:28:16:88245692][restartedMain] DEBUG com.dssns.like.LikeApplication - Running with Spring Boot v3.3.7, Spring v6.1.16
+[2025-04-07 21:28:16:88245693][restartedMain] INFO  com.dssns.like.LikeApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-04-07 21:28:16:88245693][restartedMain] INFO  com.dssns.like.LikeApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-04-07 21:28:16:88246132][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2025-04-07 21:28:16:88246144][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interface.
+[2025-04-07 21:28:16:88246233][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8202 (http)
+[2025-04-07 21:28:16:88246234][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+[2025-04-07 21:28:16:88246234][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2025-04-07 21:28:16:88246234][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+[2025-04-07 21:28:16:88246241][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2025-04-07 21:28:16:88246242][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 546 ms
+[2025-04-07 21:28:16:88246274][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+[2025-04-07 21:28:16:88246286][restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4cb849ff
+[2025-04-07 21:28:16:88246286][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+[2025-04-07 21:28:16:88246299][restartedMain] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3308/ds_sns (MySQL 8.0)
+[2025-04-07 21:28:16:88246314][restartedMain] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.007s)
+[2025-04-07 21:28:16:88246324][restartedMain] INFO  o.f.core.internal.command.DbMigrate - Current version of schema `ds_sns`: 1
+[2025-04-07 21:28:16:88246324][restartedMain] INFO  o.f.core.internal.command.DbMigrate - Schema `ds_sns` is up to date. No migration necessary.
+[2025-04-07 21:28:16:88246369][restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2025-04-07 21:28:16:88246375][restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[2025-04-07 21:28:16:88246386][restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2025-04-07 21:28:16:88246390][restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2025-04-07 21:28:17:88246477][restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2025-04-07 21:28:17:88246477][restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2025-04-07 21:28:17:88246606][restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2025-04-07 21:28:17:88247060][restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+[2025-04-07 21:28:17:88247065][restartedMain] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.controllers = []
+	bootstrap.servers = [localhost:29092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = like-admin-1
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	enable.metrics.push = true
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+[2025-04-07 21:28:17:88247066][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka version: 3.9.0
+[2025-04-07 21:28:17:88247066][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId: 84caaa6e9da06435
+[2025-04-07 21:28:17:88247066][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka startTimeMs: 1744028897659
+[2025-04-07 21:28:17:88247092][kafka-admin-client-thread | like-admin-1] INFO  o.a.k.common.utils.AppInfoParser - App info kafka.admin.client for like-admin-1 unregistered
+[2025-04-07 21:28:17:88247093][kafka-admin-client-thread | like-admin-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+[2025-04-07 21:28:17:88247093][kafka-admin-client-thread | like-admin-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+[2025-04-07 21:28:17:88247093][kafka-admin-client-thread | like-admin-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+[2025-04-07 21:28:17:88247096][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+[2025-04-07 21:28:17:88247098][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8202 (http) with context path '/'
+[2025-04-07 21:28:17:88247101][restartedMain] INFO  com.dssns.like.LikeApplication - Started LikeApplication in 1.441 seconds (process running for 4186.241)
+[2025-04-07 21:28:17:88247101][restartedMain] INFO  com.dssns.like.LikeApplication - Started LikeApplication in 1.441 seconds (process running for 4186.241)
+[2025-04-07 21:28:17:88247102][restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[2025-04-07 21:32:44:88514217][File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 8 class path changes (0 additions, 0 deletions, 8 modifications)
+[2025-04-07 21:32:44:88514237][Thread-6] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8202"]
+[2025-04-07 21:32:44:88514246][Thread-6] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2025-04-07 21:32:44:88514248][Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+[2025-04-07 21:32:44:88514269][Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+[2025-04-07 21:32:44:88514384][restartedMain] INFO  com.dssns.like.LikeApplication - Starting LikeApplication using Java 17.0.13 with PID 50136 (/Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2/like/build/classes/java/main started by dongseoklee in /Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2)
+[2025-04-07 21:32:44:88514384][restartedMain] INFO  com.dssns.like.LikeApplication - Starting LikeApplication using Java 17.0.13 with PID 50136 (/Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2/like/build/classes/java/main started by dongseoklee in /Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2)
+[2025-04-07 21:32:44:88514384][restartedMain] DEBUG com.dssns.like.LikeApplication - Running with Spring Boot v3.3.7, Spring v6.1.16
+[2025-04-07 21:32:44:88514384][restartedMain] DEBUG com.dssns.like.LikeApplication - Running with Spring Boot v3.3.7, Spring v6.1.16
+[2025-04-07 21:32:44:88514384][restartedMain] INFO  com.dssns.like.LikeApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-04-07 21:32:44:88514384][restartedMain] INFO  com.dssns.like.LikeApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-04-07 21:32:45:88514576][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2025-04-07 21:32:45:88514581][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interface.
+[2025-04-07 21:32:45:88514651][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8202 (http)
+[2025-04-07 21:32:45:88514651][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+[2025-04-07 21:32:45:88514651][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2025-04-07 21:32:45:88514651][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+[2025-04-07 21:32:45:88514657][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2025-04-07 21:32:45:88514657][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 272 ms
+[2025-04-07 21:32:45:88514677][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+[2025-04-07 21:32:45:88514695][restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@53848f9e
+[2025-04-07 21:32:45:88514695][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+[2025-04-07 21:32:45:88514707][restartedMain] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3308/ds_sns (MySQL 8.0)
+[2025-04-07 21:32:45:88514721][restartedMain] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.006s)
+[2025-04-07 21:32:45:88514727][restartedMain] INFO  o.f.core.internal.command.DbMigrate - Current version of schema `ds_sns`: 1
+[2025-04-07 21:32:45:88514728][restartedMain] INFO  o.f.core.internal.command.DbMigrate - Schema `ds_sns` is up to date. No migration necessary.
+[2025-04-07 21:32:45:88514739][restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2025-04-07 21:32:45:88514740][restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[2025-04-07 21:32:45:88514747][restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2025-04-07 21:32:45:88514749][restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2025-04-07 21:32:45:88514780][restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2025-04-07 21:32:45:88514781][restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2025-04-07 21:32:45:88514862][restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2025-04-07 21:32:45:88515089][restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+[2025-04-07 21:32:45:88515095][restartedMain] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.controllers = []
+	bootstrap.servers = [localhost:29092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = like-admin-2
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	enable.metrics.push = true
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+[2025-04-07 21:32:45:88515096][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka version: 3.9.0
+[2025-04-07 21:32:45:88515096][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId: 84caaa6e9da06435
+[2025-04-07 21:32:45:88515096][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka startTimeMs: 1744029165689
+[2025-04-07 21:32:45:88515128][kafka-admin-client-thread | like-admin-2] INFO  o.a.k.common.utils.AppInfoParser - App info kafka.admin.client for like-admin-2 unregistered
+[2025-04-07 21:32:45:88515128][kafka-admin-client-thread | like-admin-2] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+[2025-04-07 21:32:45:88515128][kafka-admin-client-thread | like-admin-2] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+[2025-04-07 21:32:45:88515128][kafka-admin-client-thread | like-admin-2] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+[2025-04-07 21:32:45:88515133][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+[2025-04-07 21:32:45:88515134][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8202 (http) with context path '/'
+[2025-04-07 21:32:45:88515138][restartedMain] INFO  com.dssns.like.LikeApplication - Started LikeApplication in 0.775 seconds (process running for 4454.287)
+[2025-04-07 21:32:45:88515138][restartedMain] INFO  com.dssns.like.LikeApplication - Started LikeApplication in 0.775 seconds (process running for 4454.287)
+[2025-04-07 21:32:45:88515138][restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[2025-04-07 21:35:10:88660014][SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2025-04-07 21:35:10:88660016][SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+[2025-04-07 21:35:10:88660026][SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+[2025-04-07 21:35:16:434][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[2025-04-07 21:35:16:456][restartedMain] INFO  com.dssns.like.LikeApplication - Starting LikeApplication using Java 17.0.13 with PID 69203 (/Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2/like/build/classes/java/main started by dongseoklee in /Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2)
+[2025-04-07 21:35:16:456][restartedMain] INFO  com.dssns.like.LikeApplication - Starting LikeApplication using Java 17.0.13 with PID 69203 (/Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2/like/build/classes/java/main started by dongseoklee in /Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2)
+[2025-04-07 21:35:16:457][restartedMain] DEBUG com.dssns.like.LikeApplication - Running with Spring Boot v3.3.7, Spring v6.1.16
+[2025-04-07 21:35:16:457][restartedMain] DEBUG com.dssns.like.LikeApplication - Running with Spring Boot v3.3.7, Spring v6.1.16
+[2025-04-07 21:35:16:457][restartedMain] INFO  com.dssns.like.LikeApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-04-07 21:35:16:457][restartedMain] INFO  com.dssns.like.LikeApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-04-07 21:35:16:485][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2025-04-07 21:35:16:486][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2025-04-07 21:35:17:929][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2025-04-07 21:35:17:958][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interface.
+[2025-04-07 21:35:17:1259][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8202 (http)
+[2025-04-07 21:35:17:1265][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+[2025-04-07 21:35:17:1265][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2025-04-07 21:35:17:1265][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+[2025-04-07 21:35:17:1292][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2025-04-07 21:35:17:1292][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 806 ms
+[2025-04-07 21:35:17:1400][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[2025-04-07 21:35:17:1605][restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4834afc9
+[2025-04-07 21:35:17:1606][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[2025-04-07 21:35:17:1640][restartedMain] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3308/ds_sns (MySQL 8.0)
+[2025-04-07 21:35:17:1677][restartedMain] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.018s)
+[2025-04-07 21:35:17:1690][restartedMain] INFO  o.f.core.internal.command.DbMigrate - Current version of schema `ds_sns`: 1
+[2025-04-07 21:35:17:1692][restartedMain] INFO  o.f.core.internal.command.DbMigrate - Schema `ds_sns` is up to date. No migration necessary.
+[2025-04-07 21:35:17:1734][restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2025-04-07 21:35:18:1768][restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+[2025-04-07 21:35:18:1786][restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[2025-04-07 21:35:18:1970][restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2025-04-07 21:35:18:2006][restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2025-04-07 21:35:18:2472][restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2025-04-07 21:35:18:2474][restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2025-04-07 21:35:18:2728][restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2025-04-07 21:35:19:3181][restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+[2025-04-07 21:35:19:3197][restartedMain] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.controllers = []
+	bootstrap.servers = [localhost:29092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = like-admin-0
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	enable.metrics.push = true
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+[2025-04-07 21:35:19:3231][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka version: 3.9.0
+[2025-04-07 21:35:19:3232][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId: 84caaa6e9da06435
+[2025-04-07 21:35:19:3232][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka startTimeMs: 1744029319466
+[2025-04-07 21:35:19:3442][kafka-admin-client-thread | like-admin-0] INFO  o.a.k.common.utils.AppInfoParser - App info kafka.admin.client for like-admin-0 unregistered
+[2025-04-07 21:35:19:3445][kafka-admin-client-thread | like-admin-0] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+[2025-04-07 21:35:19:3446][kafka-admin-client-thread | like-admin-0] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+[2025-04-07 21:35:19:3446][kafka-admin-client-thread | like-admin-0] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+[2025-04-07 21:35:19:3454][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+[2025-04-07 21:35:19:3462][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8202 (http) with context path '/'
+[2025-04-07 21:35:19:3470][restartedMain] INFO  com.dssns.like.LikeApplication - Started LikeApplication in 3.356 seconds (process running for 4.667)
+[2025-04-07 21:35:19:3470][restartedMain] INFO  com.dssns.like.LikeApplication - Started LikeApplication in 3.356 seconds (process running for 4.667)
+[2025-04-07 21:39:09:233585][http-nio-8202-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2025-04-07 21:39:09:233586][http-nio-8202-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2025-04-07 21:39:09:233590][http-nio-8202-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+[2025-04-07 21:39:10:233912][http-nio-8202-exec-4] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 145 ms
+[2025-04-07 21:40:23:307398][http-nio-8202-exec-6] INFO  c.d.like.controller.LikeController - >>> PostController.likeComment
+[2025-04-07 21:40:23:307398][http-nio-8202-exec-6] INFO  c.d.like.controller.LikeController - >>> PostController.likeComment
+[2025-04-07 21:40:23:307490][http-nio-8202-exec-6] DEBUG org.hibernate.SQL - 
+    /* <criteria> */ select
+        l1_0.like_no,
+        l1_0.created_by,
+        l1_0.created_date,
+        l1_0.del_yn,
+        l1_0.last_modified_by,
+        l1_0.last_modified_date,
+        l1_0.ref_id,
+        l1_0.ref_tbl 
+    from
+        tb_like l1_0 
+    where
+        l1_0.ref_tbl=? 
+        and l1_0.ref_id=? 
+        and l1_0.created_by=? 
+        and l1_0.del_yn=?
+[2025-04-07 21:40:23:307526][http-nio-8202-exec-6] DEBUG org.hibernate.SQL - 
+    /* insert for
+        com.dssns.like.entity.Like */insert 
+    into
+        tb_like (created_by, ref_id, ref_tbl) 
+    values
+        (?, ?, ?)
+[2025-04-07 21:40:23:307553][http-nio-8202-exec-6] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:29092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = like-producer-1
+	compression.gzip.level = -1
+	compression.lz4.level = 9
+	compression.type = none
+	compression.zstd.level = 3
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class com.dssns.common.event.NotificationEventSerializer
+
+[2025-04-07 21:40:23:307572][http-nio-8202-exec-6] INFO  o.a.k.c.t.i.KafkaMetricsCollector - initializing Kafka metrics collector
+[2025-04-07 21:40:23:307578][http-nio-8202-exec-6] INFO  o.a.k.c.producer.KafkaProducer - [Producer clientId=like-producer-1] Instantiated an idempotent producer.
+[2025-04-07 21:40:23:307589][http-nio-8202-exec-6] INFO  o.a.k.common.utils.AppInfoParser - Kafka version: 3.9.0
+[2025-04-07 21:40:23:307590][http-nio-8202-exec-6] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId: 84caaa6e9da06435
+[2025-04-07 21:40:23:307590][http-nio-8202-exec-6] INFO  o.a.k.common.utils.AppInfoParser - Kafka startTimeMs: 1744029623824
+[2025-04-07 21:40:23:307617][kafka-producer-network-thread | like-producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=like-producer-1] Cluster ID: YuxSHGKMQX2bRM4-PxuXoQ
+[2025-04-07 21:40:23:307620][kafka-producer-network-thread | like-producer-1] INFO  o.a.k.c.p.i.TransactionManager - [Producer clientId=like-producer-1] ProducerId set to 2 with epoch 0
+[2025-04-07 21:40:23:307677][http-nio-8202-exec-6] INFO  c.d.c.e.NotificationEventProducer - Message sent successfully to topic: test, partition: 1, metaData: notification-events-1@0
+[2025-04-07 21:40:23:307677][http-nio-8202-exec-6] INFO  c.d.c.e.NotificationEventProducer - Message sent successfully to topic: test, partition: 1, metaData: notification-events-1@0
+[2025-04-07 21:59:03:1427415][File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 3 class path changes (3 additions, 0 deletions, 0 modifications)
+[2025-04-07 21:59:03:1427426][Thread-1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8202"]
+[2025-04-07 21:59:03:1427437][Thread-1] INFO  o.a.k.c.producer.KafkaProducer - [Producer clientId=like-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+[2025-04-07 21:59:03:1427441][Thread-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+[2025-04-07 21:59:03:1427441][Thread-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+[2025-04-07 21:59:03:1427441][Thread-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+[2025-04-07 21:59:03:1427441][Thread-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+[2025-04-07 21:59:03:1427442][Thread-1] INFO  o.a.k.common.utils.AppInfoParser - App info kafka.producer for like-producer-1 unregistered
+[2025-04-07 21:59:03:1427445][Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2025-04-07 21:59:03:1427452][Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[2025-04-07 21:59:03:1427468][Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[2025-04-07 21:59:03:1427581][restartedMain] INFO  com.dssns.like.LikeApplication - Starting LikeApplication using Java 17.0.13 with PID 69203 (/Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2/like/build/classes/java/main started by dongseoklee in /Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2)
+[2025-04-07 21:59:03:1427581][restartedMain] INFO  com.dssns.like.LikeApplication - Starting LikeApplication using Java 17.0.13 with PID 69203 (/Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2/like/build/classes/java/main started by dongseoklee in /Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2)
+[2025-04-07 21:59:03:1427581][restartedMain] DEBUG com.dssns.like.LikeApplication - Running with Spring Boot v3.3.7, Spring v6.1.16
+[2025-04-07 21:59:03:1427581][restartedMain] DEBUG com.dssns.like.LikeApplication - Running with Spring Boot v3.3.7, Spring v6.1.16
+[2025-04-07 21:59:03:1427582][restartedMain] INFO  com.dssns.like.LikeApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-04-07 21:59:03:1427582][restartedMain] INFO  com.dssns.like.LikeApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-04-07 21:59:03:1427748][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2025-04-07 21:59:03:1427755][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interface.
+[2025-04-07 21:59:04:1427840][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8202 (http)
+[2025-04-07 21:59:04:1427841][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+[2025-04-07 21:59:04:1427841][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2025-04-07 21:59:04:1427841][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+[2025-04-07 21:59:04:1427849][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2025-04-07 21:59:04:1427849][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 264 ms
+[2025-04-07 21:59:04:1427881][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+[2025-04-07 21:59:04:1427899][restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3fb914b8
+[2025-04-07 21:59:04:1427899][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+[2025-04-07 21:59:04:1427913][restartedMain] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3308/ds_sns (MySQL 8.0)
+[2025-04-07 21:59:04:1427938][restartedMain] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.009s)
+[2025-04-07 21:59:04:1427948][restartedMain] INFO  o.f.core.internal.command.DbMigrate - Current version of schema `ds_sns`: 1
+[2025-04-07 21:59:04:1427952][restartedMain] INFO  o.f.core.internal.command.DbMigrate - Schema `ds_sns` is up to date. No migration necessary.
+[2025-04-07 21:59:04:1428000][restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2025-04-07 21:59:04:1428003][restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[2025-04-07 21:59:04:1428023][restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2025-04-07 21:59:04:1428027][restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2025-04-07 21:59:04:1428078][restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2025-04-07 21:59:04:1428078][restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2025-04-07 21:59:04:1428149][restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2025-04-07 21:59:04:1428529][restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+[2025-04-07 21:59:04:1428535][restartedMain] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.controllers = []
+	bootstrap.servers = [localhost:29092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = like-admin-1
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	enable.metrics.push = true
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+[2025-04-07 21:59:04:1428536][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka version: 3.9.0
+[2025-04-07 21:59:04:1428536][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId: 84caaa6e9da06435
+[2025-04-07 21:59:04:1428536][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka startTimeMs: 1744030744771
+[2025-04-07 21:59:04:1428558][kafka-admin-client-thread | like-admin-1] INFO  o.a.k.common.utils.AppInfoParser - App info kafka.admin.client for like-admin-1 unregistered
+[2025-04-07 21:59:04:1428560][kafka-admin-client-thread | like-admin-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+[2025-04-07 21:59:04:1428560][kafka-admin-client-thread | like-admin-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+[2025-04-07 21:59:04:1428560][kafka-admin-client-thread | like-admin-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+[2025-04-07 21:59:04:1428566][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+[2025-04-07 21:59:04:1428568][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8202 (http) with context path '/'
+[2025-04-07 21:59:04:1428573][restartedMain] INFO  com.dssns.like.LikeApplication - Started LikeApplication in 1.017 seconds (process running for 1429.818)
+[2025-04-07 21:59:04:1428573][restartedMain] INFO  com.dssns.like.LikeApplication - Started LikeApplication in 1.017 seconds (process running for 1429.818)
+[2025-04-07 21:59:04:1428575][restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[2025-04-07 22:00:12:1496052][File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+[2025-04-07 22:00:12:1496064][Thread-6] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8202"]
+[2025-04-07 22:00:12:1496070][Thread-6] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2025-04-07 22:00:12:1496072][Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+[2025-04-07 22:00:12:1496088][Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+[2025-04-07 22:00:12:1496206][restartedMain] INFO  com.dssns.like.LikeApplication - Starting LikeApplication using Java 17.0.13 with PID 69203 (/Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2/like/build/classes/java/main started by dongseoklee in /Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2)
+[2025-04-07 22:00:12:1496206][restartedMain] INFO  com.dssns.like.LikeApplication - Starting LikeApplication using Java 17.0.13 with PID 69203 (/Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2/like/build/classes/java/main started by dongseoklee in /Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2)
+[2025-04-07 22:00:12:1496206][restartedMain] DEBUG com.dssns.like.LikeApplication - Running with Spring Boot v3.3.7, Spring v6.1.16
+[2025-04-07 22:00:12:1496206][restartedMain] DEBUG com.dssns.like.LikeApplication - Running with Spring Boot v3.3.7, Spring v6.1.16
+[2025-04-07 22:00:12:1496206][restartedMain] INFO  com.dssns.like.LikeApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-04-07 22:00:12:1496206][restartedMain] INFO  com.dssns.like.LikeApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-04-07 22:00:12:1496347][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2025-04-07 22:00:12:1496354][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interface.
+[2025-04-07 22:00:12:1496449][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8202 (http)
+[2025-04-07 22:00:12:1496449][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+[2025-04-07 22:00:12:1496449][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2025-04-07 22:00:12:1496449][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+[2025-04-07 22:00:12:1496456][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2025-04-07 22:00:12:1496457][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 250 ms
+[2025-04-07 22:00:12:1496479][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+[2025-04-07 22:00:12:1496495][restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3dbf1dc3
+[2025-04-07 22:00:12:1496496][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+[2025-04-07 22:00:12:1496512][restartedMain] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3308/ds_sns (MySQL 8.0)
+[2025-04-07 22:00:12:1496529][restartedMain] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.007s)
+[2025-04-07 22:00:12:1496536][restartedMain] INFO  o.f.core.internal.command.DbMigrate - Current version of schema `ds_sns`: 1
+[2025-04-07 22:00:12:1496537][restartedMain] INFO  o.f.core.internal.command.DbMigrate - Schema `ds_sns` is up to date. No migration necessary.
+[2025-04-07 22:00:12:1496548][restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2025-04-07 22:00:12:1496550][restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[2025-04-07 22:00:12:1496554][restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2025-04-07 22:00:12:1496556][restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2025-04-07 22:00:12:1496594][restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2025-04-07 22:00:12:1496595][restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2025-04-07 22:00:12:1496651][restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2025-04-07 22:00:13:1496884][restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+[2025-04-07 22:00:13:1496889][restartedMain] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.controllers = []
+	bootstrap.servers = [localhost:29092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = like-admin-2
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	enable.metrics.push = true
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+[2025-04-07 22:00:13:1496890][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka version: 3.9.0
+[2025-04-07 22:00:13:1496890][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId: 84caaa6e9da06435
+[2025-04-07 22:00:13:1496890][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka startTimeMs: 1744030813125
+[2025-04-07 22:00:13:1496915][kafka-admin-client-thread | like-admin-2] INFO  o.a.k.common.utils.AppInfoParser - App info kafka.admin.client for like-admin-2 unregistered
+[2025-04-07 22:00:13:1496916][kafka-admin-client-thread | like-admin-2] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+[2025-04-07 22:00:13:1496916][kafka-admin-client-thread | like-admin-2] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+[2025-04-07 22:00:13:1496916][kafka-admin-client-thread | like-admin-2] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+[2025-04-07 22:00:13:1496920][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+[2025-04-07 22:00:13:1496924][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8202 (http) with context path '/'
+[2025-04-07 22:00:13:1496927][restartedMain] INFO  com.dssns.like.LikeApplication - Started LikeApplication in 0.749 seconds (process running for 1498.175)
+[2025-04-07 22:00:13:1496927][restartedMain] INFO  com.dssns.like.LikeApplication - Started LikeApplication in 0.749 seconds (process running for 1498.175)
+[2025-04-07 22:00:13:1496928][restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[2025-04-07 22:19:32:2656058][File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 3 class path changes (3 additions, 0 deletions, 0 modifications)
+[2025-04-07 22:19:32:2656073][Thread-11] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8202"]
+[2025-04-07 22:19:32:2656087][Thread-11] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2025-04-07 22:19:32:2656089][Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+[2025-04-07 22:19:32:2656110][Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+[2025-04-07 22:19:32:2656218][restartedMain] INFO  com.dssns.like.LikeApplication - Starting LikeApplication using Java 17.0.13 with PID 69203 (/Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2/like/build/classes/java/main started by dongseoklee in /Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2)
+[2025-04-07 22:19:32:2656218][restartedMain] INFO  com.dssns.like.LikeApplication - Starting LikeApplication using Java 17.0.13 with PID 69203 (/Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2/like/build/classes/java/main started by dongseoklee in /Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2)
+[2025-04-07 22:19:32:2656219][restartedMain] DEBUG com.dssns.like.LikeApplication - Running with Spring Boot v3.3.7, Spring v6.1.16
+[2025-04-07 22:19:32:2656219][restartedMain] DEBUG com.dssns.like.LikeApplication - Running with Spring Boot v3.3.7, Spring v6.1.16
+[2025-04-07 22:19:32:2656219][restartedMain] INFO  com.dssns.like.LikeApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-04-07 22:19:32:2656219][restartedMain] INFO  com.dssns.like.LikeApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-04-07 22:19:32:2656381][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2025-04-07 22:19:32:2656388][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interface.
+[2025-04-07 22:19:32:2656455][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8202 (http)
+[2025-04-07 22:19:32:2656455][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+[2025-04-07 22:19:32:2656455][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2025-04-07 22:19:32:2656455][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+[2025-04-07 22:19:32:2656463][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2025-04-07 22:19:32:2656463][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 243 ms
+[2025-04-07 22:19:32:2656487][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+[2025-04-07 22:19:32:2656511][restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7089084d
+[2025-04-07 22:19:32:2656511][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+[2025-04-07 22:19:32:2656519][restartedMain] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3308/ds_sns (MySQL 8.0)
+[2025-04-07 22:19:32:2656532][restartedMain] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.006s)
+[2025-04-07 22:19:32:2656539][restartedMain] INFO  o.f.core.internal.command.DbMigrate - Current version of schema `ds_sns`: 1
+[2025-04-07 22:19:32:2656540][restartedMain] INFO  o.f.core.internal.command.DbMigrate - Schema `ds_sns` is up to date. No migration necessary.
+[2025-04-07 22:19:32:2656555][restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2025-04-07 22:19:32:2656557][restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[2025-04-07 22:19:32:2656561][restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2025-04-07 22:19:32:2656562][restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2025-04-07 22:19:32:2656592][restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2025-04-07 22:19:32:2656592][restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2025-04-07 22:19:32:2656655][restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2025-04-07 22:19:33:2657057][restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+[2025-04-07 22:19:33:2657062][restartedMain] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.controllers = []
+	bootstrap.servers = [localhost:29092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = like-admin-3
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	enable.metrics.push = true
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+[2025-04-07 22:19:33:2657063][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka version: 3.9.0
+[2025-04-07 22:19:33:2657063][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId: 84caaa6e9da06435
+[2025-04-07 22:19:33:2657063][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka startTimeMs: 1744031973298
+[2025-04-07 22:19:33:2657114][kafka-admin-client-thread | like-admin-3] INFO  o.a.k.common.utils.AppInfoParser - App info kafka.admin.client for like-admin-3 unregistered
+[2025-04-07 22:19:33:2657114][kafka-admin-client-thread | like-admin-3] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+[2025-04-07 22:19:33:2657115][kafka-admin-client-thread | like-admin-3] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+[2025-04-07 22:19:33:2657115][kafka-admin-client-thread | like-admin-3] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+[2025-04-07 22:19:33:2657120][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+[2025-04-07 22:19:33:2657122][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8202 (http) with context path '/'
+[2025-04-07 22:19:33:2657126][restartedMain] INFO  com.dssns.like.LikeApplication - Started LikeApplication in 0.93 seconds (process running for 2658.394)
+[2025-04-07 22:19:33:2657126][restartedMain] INFO  com.dssns.like.LikeApplication - Started LikeApplication in 0.93 seconds (process running for 2658.394)
+[2025-04-07 22:19:33:2657128][restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[2025-04-07 22:20:49:2733255][File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+[2025-04-07 22:20:49:2733265][Thread-16] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8202"]
+[2025-04-07 22:20:49:2733272][Thread-16] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2025-04-07 22:20:49:2733274][Thread-16] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+[2025-04-07 22:20:49:2733291][Thread-16] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+[2025-04-07 22:20:49:2733452][restartedMain] INFO  com.dssns.like.LikeApplication - Starting LikeApplication using Java 17.0.13 with PID 69203 (/Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2/like/build/classes/java/main started by dongseoklee in /Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2)
+[2025-04-07 22:20:49:2733452][restartedMain] INFO  com.dssns.like.LikeApplication - Starting LikeApplication using Java 17.0.13 with PID 69203 (/Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2/like/build/classes/java/main started by dongseoklee in /Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2)
+[2025-04-07 22:20:49:2733453][restartedMain] DEBUG com.dssns.like.LikeApplication - Running with Spring Boot v3.3.7, Spring v6.1.16
+[2025-04-07 22:20:49:2733453][restartedMain] DEBUG com.dssns.like.LikeApplication - Running with Spring Boot v3.3.7, Spring v6.1.16
+[2025-04-07 22:20:49:2733453][restartedMain] INFO  com.dssns.like.LikeApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-04-07 22:20:49:2733453][restartedMain] INFO  com.dssns.like.LikeApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-04-07 22:20:49:2733606][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2025-04-07 22:20:49:2733615][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interface.
+[2025-04-07 22:20:49:2733696][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8202 (http)
+[2025-04-07 22:20:49:2733697][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+[2025-04-07 22:20:49:2733697][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2025-04-07 22:20:49:2733697][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+[2025-04-07 22:20:49:2733703][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2025-04-07 22:20:49:2733703][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 249 ms
+[2025-04-07 22:20:49:2733728][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+[2025-04-07 22:20:49:2733751][restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@551f2cc
+[2025-04-07 22:20:49:2733751][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+[2025-04-07 22:20:49:2733760][restartedMain] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3308/ds_sns (MySQL 8.0)
+[2025-04-07 22:20:50:2733780][restartedMain] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.009s)
+[2025-04-07 22:20:50:2733794][restartedMain] INFO  o.f.core.internal.command.DbMigrate - Current version of schema `ds_sns`: 1
+[2025-04-07 22:20:50:2733794][restartedMain] INFO  o.f.core.internal.command.DbMigrate - Schema `ds_sns` is up to date. No migration necessary.
+[2025-04-07 22:20:50:2733808][restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2025-04-07 22:20:50:2733809][restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[2025-04-07 22:20:50:2733813][restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2025-04-07 22:20:50:2733814][restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2025-04-07 22:20:50:2733840][restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2025-04-07 22:20:50:2733840][restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2025-04-07 22:20:50:2733904][restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2025-04-07 22:20:50:2734218][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2025-04-07 22:20:50:2734223][restartedMain] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.controllers = []
+	bootstrap.servers = [localhost:29092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = like-admin-4
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	enable.metrics.push = true
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+[2025-04-07 22:20:50:2734224][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka version: 3.9.0
+[2025-04-07 22:20:50:2734224][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId: 84caaa6e9da06435
+[2025-04-07 22:20:50:2734224][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka startTimeMs: 1744032050459
+[2025-04-07 22:20:50:2734260][kafka-admin-client-thread | like-admin-4] INFO  o.a.k.common.utils.AppInfoParser - App info kafka.admin.client for like-admin-4 unregistered
+[2025-04-07 22:20:50:2734261][kafka-admin-client-thread | like-admin-4] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+[2025-04-07 22:20:50:2734261][kafka-admin-client-thread | like-admin-4] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+[2025-04-07 22:20:50:2734261][kafka-admin-client-thread | like-admin-4] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+[2025-04-07 22:20:50:2734268][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+[2025-04-07 22:20:50:2734270][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8202 (http) with context path '/'
+[2025-04-07 22:20:50:2734274][restartedMain] INFO  com.dssns.like.LikeApplication - Started LikeApplication in 0.849 seconds (process running for 2735.544)
+[2025-04-07 22:20:50:2734274][restartedMain] INFO  com.dssns.like.LikeApplication - Started LikeApplication in 0.849 seconds (process running for 2735.544)
+[2025-04-07 22:20:50:2734275][restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[2025-04-07 22:21:16:2760081][SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2025-04-07 22:21:16:2760084][SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+[2025-04-07 22:21:16:2760104][SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+[2025-04-07 22:21:19:352][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[2025-04-07 22:21:19:371][restartedMain] INFO  com.dssns.like.LikeApplication - Starting LikeApplication using Java 17.0.13 with PID 80807 (/Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2/like/build/classes/java/main started by dongseoklee in /Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2)
+[2025-04-07 22:21:19:371][restartedMain] INFO  com.dssns.like.LikeApplication - Starting LikeApplication using Java 17.0.13 with PID 80807 (/Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2/like/build/classes/java/main started by dongseoklee in /Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2)
+[2025-04-07 22:21:19:371][restartedMain] DEBUG com.dssns.like.LikeApplication - Running with Spring Boot v3.3.7, Spring v6.1.16
+[2025-04-07 22:21:19:371][restartedMain] DEBUG com.dssns.like.LikeApplication - Running with Spring Boot v3.3.7, Spring v6.1.16
+[2025-04-07 22:21:19:372][restartedMain] INFO  com.dssns.like.LikeApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-04-07 22:21:19:372][restartedMain] INFO  com.dssns.like.LikeApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-04-07 22:21:19:390][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2025-04-07 22:21:19:390][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2025-04-07 22:21:19:913][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2025-04-07 22:21:19:941][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interface.
+[2025-04-07 22:21:20:1245][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8202 (http)
+[2025-04-07 22:21:20:1251][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+[2025-04-07 22:21:20:1251][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2025-04-07 22:21:20:1251][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+[2025-04-07 22:21:20:1273][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2025-04-07 22:21:20:1273][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 883 ms
+[2025-04-07 22:21:20:1465][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[2025-04-07 22:21:20:1648][restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@26aee075
+[2025-04-07 22:21:20:1649][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[2025-04-07 22:21:20:1682][restartedMain] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3308/ds_sns (MySQL 8.0)
+[2025-04-07 22:21:20:1717][restartedMain] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.017s)
+[2025-04-07 22:21:20:1727][restartedMain] INFO  o.f.core.internal.command.DbMigrate - Current version of schema `ds_sns`: 1
+[2025-04-07 22:21:20:1729][restartedMain] INFO  o.f.core.internal.command.DbMigrate - Schema `ds_sns` is up to date. No migration necessary.
+[2025-04-07 22:21:20:1777][restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2025-04-07 22:21:20:1808][restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+[2025-04-07 22:21:20:1825][restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[2025-04-07 22:21:20:1989][restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2025-04-07 22:21:21:2021][restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2025-04-07 22:21:21:2548][restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2025-04-07 22:21:21:2550][restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2025-04-07 22:21:21:2834][restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2025-04-07 22:21:22:3331][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2025-04-07 22:21:22:3345][restartedMain] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.controllers = []
+	bootstrap.servers = [localhost:29092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = like-admin-0
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	enable.metrics.push = true
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+[2025-04-07 22:21:22:3373][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka version: 3.9.0
+[2025-04-07 22:21:22:3373][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId: 84caaa6e9da06435
+[2025-04-07 22:21:22:3373][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka startTimeMs: 1744032082351
+[2025-04-07 22:21:22:3573][kafka-admin-client-thread | like-admin-0] INFO  o.a.k.common.utils.AppInfoParser - App info kafka.admin.client for like-admin-0 unregistered
+[2025-04-07 22:21:22:3577][kafka-admin-client-thread | like-admin-0] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+[2025-04-07 22:21:22:3577][kafka-admin-client-thread | like-admin-0] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+[2025-04-07 22:21:22:3577][kafka-admin-client-thread | like-admin-0] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+[2025-04-07 22:21:22:3589][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+[2025-04-07 22:21:22:3597][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8202 (http) with context path '/'
+[2025-04-07 22:21:22:3606][restartedMain] INFO  com.dssns.like.LikeApplication - Started LikeApplication in 3.501 seconds (process running for 4.173)
+[2025-04-07 22:21:22:3606][restartedMain] INFO  com.dssns.like.LikeApplication - Started LikeApplication in 3.501 seconds (process running for 4.173)
+[2025-04-07 22:23:52:153934][http-nio-8202-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2025-04-07 22:23:52:153940][http-nio-8202-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2025-04-07 22:23:52:153946][http-nio-8202-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+[2025-04-07 22:23:52:153996][http-nio-8202-exec-1] INFO  c.d.like.controller.LikeController - >>> PostController.likeComment
+[2025-04-07 22:23:52:153996][http-nio-8202-exec-1] INFO  c.d.like.controller.LikeController - >>> PostController.likeComment
+[2025-04-07 22:23:53:154104][http-nio-8202-exec-1] DEBUG org.hibernate.SQL - 
+    /* <criteria> */ select
+        l1_0.like_no,
+        l1_0.created_by,
+        l1_0.created_date,
+        l1_0.del_yn,
+        l1_0.last_modified_by,
+        l1_0.last_modified_date,
+        l1_0.ref_id,
+        l1_0.ref_tbl 
+    from
+        tb_like l1_0 
+    where
+        l1_0.ref_tbl=? 
+        and l1_0.ref_id=? 
+        and l1_0.created_by=? 
+        and l1_0.del_yn=?
+[2025-04-07 22:23:53:154153][http-nio-8202-exec-1] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:29092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = like-producer-1
+	compression.gzip.level = -1
+	compression.lz4.level = 9
+	compression.type = none
+	compression.zstd.level = 3
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class com.dssns.common.event.NotificationEventSerializer
+
+[2025-04-07 22:23:53:154174][http-nio-8202-exec-1] INFO  o.a.k.c.t.i.KafkaMetricsCollector - initializing Kafka metrics collector
+[2025-04-07 22:23:53:154181][http-nio-8202-exec-1] INFO  o.a.k.c.producer.KafkaProducer - [Producer clientId=like-producer-1] Instantiated an idempotent producer.
+[2025-04-07 22:23:53:154202][http-nio-8202-exec-1] INFO  o.a.k.common.utils.AppInfoParser - Kafka version: 3.9.0
+[2025-04-07 22:23:53:154202][http-nio-8202-exec-1] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId: 84caaa6e9da06435
+[2025-04-07 22:23:53:154202][http-nio-8202-exec-1] INFO  o.a.k.common.utils.AppInfoParser - Kafka startTimeMs: 1744032233181
+[2025-04-07 22:23:53:154226][kafka-producer-network-thread | like-producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=like-producer-1] Cluster ID: YuxSHGKMQX2bRM4-PxuXoQ
+[2025-04-07 22:23:53:154226][kafka-producer-network-thread | like-producer-1] INFO  o.a.k.c.p.i.TransactionManager - [Producer clientId=like-producer-1] ProducerId set to 3 with epoch 0
+[2025-04-07 22:23:53:154261][http-nio-8202-exec-1] INFO  c.d.c.e.NotificationEventProducer - Message sent successfully to topic: test, partition: 2, metaData: notification-events-2@2
+[2025-04-07 22:23:53:154261][http-nio-8202-exec-1] INFO  c.d.c.e.NotificationEventProducer - Message sent successfully to topic: test, partition: 2, metaData: notification-events-2@2
+[2025-04-07 22:28:59:460832][File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+[2025-04-07 22:28:59:460849][Thread-6] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8202"]
+[2025-04-07 22:28:59:460857][Thread-6] INFO  o.a.k.c.producer.KafkaProducer - [Producer clientId=like-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+[2025-04-07 22:28:59:460868][Thread-6] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+[2025-04-07 22:28:59:460868][Thread-6] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+[2025-04-07 22:28:59:460868][Thread-6] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+[2025-04-07 22:28:59:460869][Thread-6] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+[2025-04-07 22:28:59:460869][Thread-6] INFO  o.a.k.common.utils.AppInfoParser - App info kafka.producer for like-producer-1 unregistered
+[2025-04-07 22:28:59:460872][Thread-6] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2025-04-07 22:28:59:460876][Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[2025-04-07 22:28:59:460887][Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[2025-04-07 22:28:59:460983][restartedMain] INFO  com.dssns.like.LikeApplication - Starting LikeApplication using Java 17.0.13 with PID 80807 (/Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2/like/build/classes/java/main started by dongseoklee in /Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2)
+[2025-04-07 22:28:59:460983][restartedMain] INFO  com.dssns.like.LikeApplication - Starting LikeApplication using Java 17.0.13 with PID 80807 (/Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2/like/build/classes/java/main started by dongseoklee in /Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2)
+[2025-04-07 22:28:59:460983][restartedMain] DEBUG com.dssns.like.LikeApplication - Running with Spring Boot v3.3.7, Spring v6.1.16
+[2025-04-07 22:28:59:460983][restartedMain] DEBUG com.dssns.like.LikeApplication - Running with Spring Boot v3.3.7, Spring v6.1.16
+[2025-04-07 22:28:59:460983][restartedMain] INFO  com.dssns.like.LikeApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-04-07 22:28:59:460983][restartedMain] INFO  com.dssns.like.LikeApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-04-07 22:29:00:461240][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2025-04-07 22:29:00:461251][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interface.
+[2025-04-07 22:29:00:461361][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8202 (http)
+[2025-04-07 22:29:00:461375][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+[2025-04-07 22:29:00:461376][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2025-04-07 22:29:00:461376][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+[2025-04-07 22:29:00:461387][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2025-04-07 22:29:00:461387][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 402 ms
+[2025-04-07 22:29:00:461420][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+[2025-04-07 22:29:00:461455][restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1368e15e
+[2025-04-07 22:29:00:461456][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+[2025-04-07 22:29:00:461483][restartedMain] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3308/ds_sns (MySQL 8.0)
+[2025-04-07 22:29:00:461556][restartedMain] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.020s)
+[2025-04-07 22:29:00:461590][restartedMain] INFO  o.f.core.internal.command.DbMigrate - Current version of schema `ds_sns`: 1
+[2025-04-07 22:29:00:461592][restartedMain] INFO  o.f.core.internal.command.DbMigrate - Schema `ds_sns` is up to date. No migration necessary.
+[2025-04-07 22:29:00:461617][restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2025-04-07 22:29:00:461619][restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[2025-04-07 22:29:00:461627][restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2025-04-07 22:29:00:461629][restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2025-04-07 22:29:00:461658][restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2025-04-07 22:29:00:461659][restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2025-04-07 22:29:01:462024][restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2025-04-07 22:29:01:462630][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2025-04-07 22:29:01:462644][restartedMain] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.controllers = []
+	bootstrap.servers = [localhost:29092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = like-admin-1
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	enable.metrics.push = true
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+[2025-04-07 22:29:01:462647][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka version: 3.9.0
+[2025-04-07 22:29:01:462647][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId: 84caaa6e9da06435
+[2025-04-07 22:29:01:462647][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka startTimeMs: 1744032541626
+[2025-04-07 22:29:01:462702][kafka-admin-client-thread | like-admin-1] INFO  o.a.k.common.utils.AppInfoParser - App info kafka.admin.client for like-admin-1 unregistered
+[2025-04-07 22:29:01:462703][kafka-admin-client-thread | like-admin-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+[2025-04-07 22:29:01:462703][kafka-admin-client-thread | like-admin-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+[2025-04-07 22:29:01:462704][kafka-admin-client-thread | like-admin-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+[2025-04-07 22:29:01:462714][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+[2025-04-07 22:29:01:462716][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8202 (http) with context path '/'
+[2025-04-07 22:29:01:462753][restartedMain] INFO  com.dssns.like.LikeApplication - Started LikeApplication in 1.794 seconds (process running for 463.334)
+[2025-04-07 22:29:01:462753][restartedMain] INFO  com.dssns.like.LikeApplication - Started LikeApplication in 1.794 seconds (process running for 463.334)
+[2025-04-07 22:29:01:462757][restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[2025-04-07 22:30:18:539870][File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 6 class path changes (0 additions, 0 deletions, 6 modifications)
+[2025-04-07 22:30:18:539886][Thread-8] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8202"]
+[2025-04-07 22:30:18:539895][Thread-8] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2025-04-07 22:30:18:539896][Thread-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+[2025-04-07 22:30:18:539918][Thread-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+[2025-04-07 22:30:19:540057][restartedMain] INFO  com.dssns.like.LikeApplication - Starting LikeApplication using Java 17.0.13 with PID 80807 (/Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2/like/build/classes/java/main started by dongseoklee in /Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2)
+[2025-04-07 22:30:19:540057][restartedMain] INFO  com.dssns.like.LikeApplication - Starting LikeApplication using Java 17.0.13 with PID 80807 (/Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2/like/build/classes/java/main started by dongseoklee in /Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2)
+[2025-04-07 22:30:19:540058][restartedMain] DEBUG com.dssns.like.LikeApplication - Running with Spring Boot v3.3.7, Spring v6.1.16
+[2025-04-07 22:30:19:540058][restartedMain] DEBUG com.dssns.like.LikeApplication - Running with Spring Boot v3.3.7, Spring v6.1.16
+[2025-04-07 22:30:19:540058][restartedMain] INFO  com.dssns.like.LikeApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-04-07 22:30:19:540058][restartedMain] INFO  com.dssns.like.LikeApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-04-07 22:30:19:540208][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2025-04-07 22:30:19:540217][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interface.
+[2025-04-07 22:30:19:540296][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8202 (http)
+[2025-04-07 22:30:19:540296][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+[2025-04-07 22:30:19:540296][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2025-04-07 22:30:19:540296][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+[2025-04-07 22:30:19:540303][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2025-04-07 22:30:19:540303][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 243 ms
+[2025-04-07 22:30:19:540330][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+[2025-04-07 22:30:19:540353][restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4c732745
+[2025-04-07 22:30:19:540353][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+[2025-04-07 22:30:19:540367][restartedMain] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3308/ds_sns (MySQL 8.0)
+[2025-04-07 22:30:19:540377][restartedMain] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.004s)
+[2025-04-07 22:30:19:540384][restartedMain] INFO  o.f.core.internal.command.DbMigrate - Current version of schema `ds_sns`: 1
+[2025-04-07 22:30:19:540384][restartedMain] INFO  o.f.core.internal.command.DbMigrate - Schema `ds_sns` is up to date. No migration necessary.
+[2025-04-07 22:30:19:540396][restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2025-04-07 22:30:19:540397][restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[2025-04-07 22:30:19:540401][restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2025-04-07 22:30:19:540403][restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2025-04-07 22:30:19:540428][restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2025-04-07 22:30:19:540428][restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2025-04-07 22:30:19:540492][restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2025-04-07 22:30:19:540737][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2025-04-07 22:30:19:540748][restartedMain] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.controllers = []
+	bootstrap.servers = [localhost:29092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = like-admin-2
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	enable.metrics.push = true
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+[2025-04-07 22:30:19:540749][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka version: 3.9.0
+[2025-04-07 22:30:19:540749][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId: 84caaa6e9da06435
+[2025-04-07 22:30:19:540749][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka startTimeMs: 1744032619728
+[2025-04-07 22:30:19:540794][kafka-admin-client-thread | like-admin-2] INFO  o.a.k.common.utils.AppInfoParser - App info kafka.admin.client for like-admin-2 unregistered
+[2025-04-07 22:30:19:540795][kafka-admin-client-thread | like-admin-2] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+[2025-04-07 22:30:19:540795][kafka-admin-client-thread | like-admin-2] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+[2025-04-07 22:30:19:540795][kafka-admin-client-thread | like-admin-2] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+[2025-04-07 22:30:19:540799][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+[2025-04-07 22:30:19:540801][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8202 (http) with context path '/'
+[2025-04-07 22:30:19:540807][restartedMain] INFO  com.dssns.like.LikeApplication - Started LikeApplication in 0.778 seconds (process running for 541.39)
+[2025-04-07 22:30:19:540807][restartedMain] INFO  com.dssns.like.LikeApplication - Started LikeApplication in 0.778 seconds (process running for 541.39)
+[2025-04-07 22:30:19:540808][restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[2025-04-07 22:30:30:551022][http-nio-8202-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2025-04-07 22:30:30:551024][http-nio-8202-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2025-04-07 22:30:30:551033][http-nio-8202-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+[2025-04-07 22:30:30:551056][http-nio-8202-exec-2] INFO  c.d.like.controller.LikeController - >>> PostController.likeComment
+[2025-04-07 22:30:30:551056][http-nio-8202-exec-2] INFO  c.d.like.controller.LikeController - >>> PostController.likeComment
+[2025-04-07 22:30:30:551070][http-nio-8202-exec-2] DEBUG org.hibernate.SQL - 
+    /* <criteria> */ select
+        l1_0.like_no,
+        l1_0.created_by,
+        l1_0.created_date,
+        l1_0.del_yn,
+        l1_0.last_modified_by,
+        l1_0.last_modified_date,
+        l1_0.ref_id,
+        l1_0.ref_tbl 
+    from
+        tb_like l1_0 
+    where
+        l1_0.ref_tbl=? 
+        and l1_0.ref_id=? 
+        and l1_0.created_by=? 
+        and l1_0.del_yn=?
+[2025-04-07 22:30:30:551088][http-nio-8202-exec-2] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:29092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = like-producer-1
+	compression.gzip.level = -1
+	compression.lz4.level = 9
+	compression.type = none
+	compression.zstd.level = 3
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class com.dssns.common.event.NotificationEventSerializer
+
+[2025-04-07 22:30:30:551089][http-nio-8202-exec-2] INFO  o.a.k.c.t.i.KafkaMetricsCollector - initializing Kafka metrics collector
+[2025-04-07 22:30:30:551090][http-nio-8202-exec-2] INFO  o.a.k.c.producer.KafkaProducer - [Producer clientId=like-producer-1] Instantiated an idempotent producer.
+[2025-04-07 22:30:30:551092][http-nio-8202-exec-2] INFO  o.a.k.common.utils.AppInfoParser - Kafka version: 3.9.0
+[2025-04-07 22:30:30:551092][http-nio-8202-exec-2] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId: 84caaa6e9da06435
+[2025-04-07 22:30:30:551092][http-nio-8202-exec-2] INFO  o.a.k.common.utils.AppInfoParser - Kafka startTimeMs: 1744032630071
+[2025-04-07 22:30:30:551110][kafka-producer-network-thread | like-producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=like-producer-1] Cluster ID: YuxSHGKMQX2bRM4-PxuXoQ
+[2025-04-07 22:30:30:551111][kafka-producer-network-thread | like-producer-1] INFO  o.a.k.c.p.i.TransactionManager - [Producer clientId=like-producer-1] ProducerId set to 4 with epoch 0
+[2025-04-07 22:30:30:551124][http-nio-8202-exec-2] INFO  c.d.c.e.NotificationEventProducer - Message sent successfully to topic: test, partition: 1, metaData: notification-events-1@1
+[2025-04-07 22:30:30:551124][http-nio-8202-exec-2] INFO  c.d.c.e.NotificationEventProducer - Message sent successfully to topic: test, partition: 1, metaData: notification-events-1@1
+[2025-04-07 22:30:58:579874][http-nio-8202-exec-3] INFO  c.d.like.controller.LikeController - >>> PostController.likeComment
+[2025-04-07 22:30:58:579874][http-nio-8202-exec-3] INFO  c.d.like.controller.LikeController - >>> PostController.likeComment
+[2025-04-07 22:30:58:579885][http-nio-8202-exec-3] DEBUG org.hibernate.SQL - 
+    /* <criteria> */ select
+        l1_0.like_no,
+        l1_0.created_by,
+        l1_0.created_date,
+        l1_0.del_yn,
+        l1_0.last_modified_by,
+        l1_0.last_modified_date,
+        l1_0.ref_id,
+        l1_0.ref_tbl 
+    from
+        tb_like l1_0 
+    where
+        l1_0.ref_tbl=? 
+        and l1_0.ref_id=? 
+        and l1_0.created_by=? 
+        and l1_0.del_yn=?
+[2025-04-07 22:30:58:579946][http-nio-8202-exec-3] INFO  c.d.c.e.NotificationEventProducer - Message sent successfully to topic: test, partition: 1, metaData: notification-events-1@2
+[2025-04-07 22:30:58:579946][http-nio-8202-exec-3] INFO  c.d.c.e.NotificationEventProducer - Message sent successfully to topic: test, partition: 1, metaData: notification-events-1@2
+[2025-04-07 22:30:59:580372][http-nio-8202-exec-4] INFO  c.d.like.controller.LikeController - >>> PostController.likeComment
+[2025-04-07 22:30:59:580372][http-nio-8202-exec-4] INFO  c.d.like.controller.LikeController - >>> PostController.likeComment
+[2025-04-07 22:30:59:580374][http-nio-8202-exec-4] DEBUG org.hibernate.SQL - 
+    /* <criteria> */ select
+        l1_0.like_no,
+        l1_0.created_by,
+        l1_0.created_date,
+        l1_0.del_yn,
+        l1_0.last_modified_by,
+        l1_0.last_modified_date,
+        l1_0.ref_id,
+        l1_0.ref_tbl 
+    from
+        tb_like l1_0 
+    where
+        l1_0.ref_tbl=? 
+        and l1_0.ref_id=? 
+        and l1_0.created_by=? 
+        and l1_0.del_yn=?
+[2025-04-07 22:30:59:580385][http-nio-8202-exec-4] INFO  c.d.c.e.NotificationEventProducer - Message sent successfully to topic: test, partition: 1, metaData: notification-events-1@3
+[2025-04-07 22:30:59:580385][http-nio-8202-exec-4] INFO  c.d.c.e.NotificationEventProducer - Message sent successfully to topic: test, partition: 1, metaData: notification-events-1@3
+[2025-04-07 22:30:59:580786][http-nio-8202-exec-5] INFO  c.d.like.controller.LikeController - >>> PostController.likeComment
+[2025-04-07 22:30:59:580786][http-nio-8202-exec-5] INFO  c.d.like.controller.LikeController - >>> PostController.likeComment
+[2025-04-07 22:30:59:580795][http-nio-8202-exec-5] DEBUG org.hibernate.SQL - 
+    /* <criteria> */ select
+        l1_0.like_no,
+        l1_0.created_by,
+        l1_0.created_date,
+        l1_0.del_yn,
+        l1_0.last_modified_by,
+        l1_0.last_modified_date,
+        l1_0.ref_id,
+        l1_0.ref_tbl 
+    from
+        tb_like l1_0 
+    where
+        l1_0.ref_tbl=? 
+        and l1_0.ref_id=? 
+        and l1_0.created_by=? 
+        and l1_0.del_yn=?
+[2025-04-07 22:30:59:580806][http-nio-8202-exec-5] INFO  c.d.c.e.NotificationEventProducer - Message sent successfully to topic: test, partition: 1, metaData: notification-events-1@4
+[2025-04-07 22:30:59:580806][http-nio-8202-exec-5] INFO  c.d.c.e.NotificationEventProducer - Message sent successfully to topic: test, partition: 1, metaData: notification-events-1@4
+[2025-04-07 22:31:14:595850][SpringApplicationShutdownHook] INFO  o.a.k.c.producer.KafkaProducer - [Producer clientId=like-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+[2025-04-07 22:31:14:595858][SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+[2025-04-07 22:31:14:595858][SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+[2025-04-07 22:31:14:595858][SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+[2025-04-07 22:31:14:595858][SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+[2025-04-07 22:31:14:595859][SpringApplicationShutdownHook] INFO  o.a.k.common.utils.AppInfoParser - App info kafka.producer for like-producer-1 unregistered
+[2025-04-07 22:31:14:595863][SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2025-04-07 22:31:14:595866][SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+[2025-04-07 22:31:14:595909][SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+[2025-04-07 23:07:36:385][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[2025-04-07 23:07:36:404][restartedMain] INFO  com.dssns.like.LikeApplication - Starting LikeApplication using Java 17.0.13 with PID 92230 (/Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2/like/build/classes/java/main started by dongseoklee in /Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2)
+[2025-04-07 23:07:36:404][restartedMain] INFO  com.dssns.like.LikeApplication - Starting LikeApplication using Java 17.0.13 with PID 92230 (/Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2/like/build/classes/java/main started by dongseoklee in /Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2)
+[2025-04-07 23:07:36:404][restartedMain] DEBUG com.dssns.like.LikeApplication - Running with Spring Boot v3.3.7, Spring v6.1.16
+[2025-04-07 23:07:36:404][restartedMain] DEBUG com.dssns.like.LikeApplication - Running with Spring Boot v3.3.7, Spring v6.1.16
+[2025-04-07 23:07:36:405][restartedMain] INFO  com.dssns.like.LikeApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-04-07 23:07:36:405][restartedMain] INFO  com.dssns.like.LikeApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-04-07 23:07:36:423][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2025-04-07 23:07:36:424][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2025-04-07 23:07:36:1015][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2025-04-07 23:07:36:1055][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interface.
+[2025-04-07 23:07:37:1423][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8202 (http)
+[2025-04-07 23:07:37:1429][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8202"]
+[2025-04-07 23:07:37:1430][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2025-04-07 23:07:37:1430][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+[2025-04-07 23:07:37:1454][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2025-04-07 23:07:37:1454][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1030 ms
+[2025-04-07 23:07:37:1485][restartedMain] DEBUG c.dssns.common.config.WebConfig$1 - Filter 'requestTimingFilter' configured for use
+[2025-04-07 23:07:37:1485][restartedMain] DEBUG c.dssns.common.config.WebConfig$1 - Filter 'requestTimingFilter' configured for use
+[2025-04-07 23:07:37:1572][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[2025-04-07 23:07:37:1744][restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@28bd8dd2
+[2025-04-07 23:07:37:1745][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[2025-04-07 23:07:37:1777][restartedMain] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3308/ds_sns (MySQL 8.0)
+[2025-04-07 23:07:37:1834][restartedMain] INFO  o.f.c.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.040s)
+[2025-04-07 23:07:37:1852][restartedMain] INFO  o.f.core.internal.command.DbMigrate - Current version of schema `ds_sns`: 1
+[2025-04-07 23:07:37:1857][restartedMain] INFO  o.f.core.internal.command.DbMigrate - Schema `ds_sns` is up to date. No migration necessary.
+[2025-04-07 23:07:37:1909][restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2025-04-07 23:07:37:1940][restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+[2025-04-07 23:07:37:1970][restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[2025-04-07 23:07:37:2134][restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2025-04-07 23:07:38:2194][restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2025-04-07 23:07:38:2685][restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2025-04-07 23:07:38:2687][restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2025-04-07 23:07:38:2943][restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2025-04-07 23:07:38:2956][restartedMain] INFO  com.dssns.common.config.WebConfig - addInterceptors start
+[2025-04-07 23:07:38:2956][restartedMain] INFO  com.dssns.common.config.WebConfig - addInterceptors start
+[2025-04-07 23:07:39:3342][restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+[2025-04-07 23:07:39:3356][restartedMain] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.controllers = []
+	bootstrap.servers = [localhost:29092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = like-admin-0
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	enable.metrics.push = true
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+[2025-04-07 23:07:39:3385][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka version: 3.9.0
+[2025-04-07 23:07:39:3385][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId: 84caaa6e9da06435
+[2025-04-07 23:07:39:3385][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka startTimeMs: 1744034859212
+[2025-04-07 23:07:39:3570][kafka-admin-client-thread | like-admin-0] INFO  o.a.k.common.utils.AppInfoParser - App info kafka.admin.client for like-admin-0 unregistered
+[2025-04-07 23:07:39:3573][kafka-admin-client-thread | like-admin-0] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+[2025-04-07 23:07:39:3573][kafka-admin-client-thread | like-admin-0] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+[2025-04-07 23:07:39:3573][kafka-admin-client-thread | like-admin-0] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+[2025-04-07 23:07:39:3581][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8202"]
+[2025-04-07 23:07:39:3592][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8202 (http) with context path '/'
+[2025-04-07 23:07:39:3603][restartedMain] INFO  com.dssns.like.LikeApplication - Started LikeApplication in 3.488 seconds (process running for 4.167)
+[2025-04-07 23:07:39:3603][restartedMain] INFO  com.dssns.like.LikeApplication - Started LikeApplication in 3.488 seconds (process running for 4.167)
+[2025-04-07 23:07:57:21693][http-nio-8202-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2025-04-07 23:07:57:21694][http-nio-8202-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2025-04-07 23:07:57:21696][http-nio-8202-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+[2025-04-07 23:07:57:21794][http-nio-8202-exec-2] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion start: /swagger-ui/swagger-initializer.js
+[2025-04-07 23:07:57:21794][http-nio-8202-exec-2] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion start: /swagger-ui/swagger-initializer.js
+[2025-04-07 23:07:57:21824][http-nio-8202-exec-2] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion end: /swagger-ui/swagger-initializer.js
+[2025-04-07 23:07:57:21824][http-nio-8202-exec-2] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion end: /swagger-ui/swagger-initializer.js
+[2025-04-07 23:07:57:22108][http-nio-8202-exec-3] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion start: /v3/api-docs/swagger-config
+[2025-04-07 23:07:57:22108][http-nio-8202-exec-3] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion start: /v3/api-docs/swagger-config
+[2025-04-07 23:07:57:22109][http-nio-8202-exec-3] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion end: /v3/api-docs/swagger-config
+[2025-04-07 23:07:57:22109][http-nio-8202-exec-3] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion end: /v3/api-docs/swagger-config
+[2025-04-07 23:07:58:22285][http-nio-8202-exec-4] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 140 ms
+[2025-04-07 23:07:58:22295][http-nio-8202-exec-4] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion start: /v3/api-docs
+[2025-04-07 23:07:58:22295][http-nio-8202-exec-4] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion start: /v3/api-docs
+[2025-04-07 23:07:58:22295][http-nio-8202-exec-4] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion end: /v3/api-docs
+[2025-04-07 23:07:58:22295][http-nio-8202-exec-4] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion end: /v3/api-docs
+[2025-04-07 23:08:05:29959][http-nio-8202-exec-7] INFO  c.d.like.controller.LikeController - >>> PostController.likePost
+[2025-04-07 23:08:05:29959][http-nio-8202-exec-7] INFO  c.d.like.controller.LikeController - >>> PostController.likePost
+[2025-04-07 23:08:05:29960][http-nio-8202-exec-7] INFO  com.dssns.like.service.LikeService - Liking post with postNo: 4 by userNo: 2
+[2025-04-07 23:08:05:29960][http-nio-8202-exec-7] INFO  com.dssns.like.service.LikeService - Liking post with postNo: 4 by userNo: 2
+[2025-04-07 23:08:05:30060][http-nio-8202-exec-7] DEBUG org.hibernate.SQL - 
+    /* <criteria> */ select
+        l1_0.like_no,
+        l1_0.created_by,
+        l1_0.created_date,
+        l1_0.del_yn,
+        l1_0.last_modified_by,
+        l1_0.last_modified_date,
+        l1_0.ref_id,
+        l1_0.ref_tbl 
+    from
+        tb_like l1_0 
+    where
+        l1_0.ref_tbl=? 
+        and l1_0.ref_id=? 
+        and l1_0.created_by=? 
+        and l1_0.del_yn=?
+[2025-04-07 23:08:05:30091][http-nio-8202-exec-7] DEBUG org.hibernate.SQL - 
+    /* insert for
+        com.dssns.like.entity.Like */insert 
+    into
+        tb_like (created_by, ref_id, ref_tbl) 
+    values
+        (?, ?, ?)
+[2025-04-07 23:08:05:30121][http-nio-8202-exec-7] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:29092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = like-producer-1
+	compression.gzip.level = -1
+	compression.lz4.level = 9
+	compression.type = none
+	compression.zstd.level = 3
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class com.dssns.common.event.NotificationEventSerializer
+
+[2025-04-07 23:08:05:30136][http-nio-8202-exec-7] INFO  o.a.k.c.t.i.KafkaMetricsCollector - initializing Kafka metrics collector
+[2025-04-07 23:08:05:30142][http-nio-8202-exec-7] INFO  o.a.k.c.producer.KafkaProducer - [Producer clientId=like-producer-1] Instantiated an idempotent producer.
+[2025-04-07 23:08:05:30152][http-nio-8202-exec-7] INFO  o.a.k.common.utils.AppInfoParser - Kafka version: 3.9.0
+[2025-04-07 23:08:05:30152][http-nio-8202-exec-7] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId: 84caaa6e9da06435
+[2025-04-07 23:08:05:30152][http-nio-8202-exec-7] INFO  o.a.k.common.utils.AppInfoParser - Kafka startTimeMs: 1744034885979
+[2025-04-07 23:08:06:30183][kafka-producer-network-thread | like-producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=like-producer-1] Cluster ID: YuxSHGKMQX2bRM4-PxuXoQ
+[2025-04-07 23:08:06:30183][kafka-producer-network-thread | like-producer-1] INFO  o.a.k.c.p.i.TransactionManager - [Producer clientId=like-producer-1] ProducerId set to 11 with epoch 0
+[2025-04-07 23:08:06:30218][http-nio-8202-exec-7] INFO  c.d.c.e.NotificationEventProducer - Message sent successfully to topic: test, partition: 2, metaData: notification-events-2@8
+[2025-04-07 23:08:06:30218][http-nio-8202-exec-7] INFO  c.d.c.e.NotificationEventProducer - Message sent successfully to topic: test, partition: 2, metaData: notification-events-2@8
+[2025-04-07 23:08:06:30225][http-nio-8202-exec-7] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion start: /likes/posts/4/like
+[2025-04-07 23:08:06:30225][http-nio-8202-exec-7] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion start: /likes/posts/4/like
+[2025-04-07 23:08:06:30226][http-nio-8202-exec-7] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion end: /likes/posts/4/like
+[2025-04-07 23:08:06:30226][http-nio-8202-exec-7] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion end: /likes/posts/4/like
+[2025-04-07 23:12:21:285797][SpringApplicationShutdownHook] INFO  o.a.k.c.producer.KafkaProducer - [Producer clientId=like-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+[2025-04-07 23:12:21:285832][SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+[2025-04-07 23:12:21:285832][SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+[2025-04-07 23:12:21:285833][SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+[2025-04-07 23:12:21:285833][SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+[2025-04-07 23:12:21:285834][SpringApplicationShutdownHook] INFO  o.a.k.common.utils.AppInfoParser - App info kafka.producer for like-producer-1 unregistered
+[2025-04-07 23:12:21:285903][SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2025-04-07 23:12:21:285928][SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[2025-04-07 23:12:21:285963][SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

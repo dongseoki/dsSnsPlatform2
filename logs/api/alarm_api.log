@@ -1,0 +1,620 @@
+[2025-04-07 23:09:09:370][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[2025-04-07 23:09:09:390][restartedMain] INFO  c.dssns.alarm.AlarmApiApplication - Starting AlarmApiApplication using Java 17.0.13 with PID 92782 (/Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2/alarm/build/classes/java/main started by dongseoklee in /Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2)
+[2025-04-07 23:09:09:390][restartedMain] INFO  c.dssns.alarm.AlarmApiApplication - Starting AlarmApiApplication using Java 17.0.13 with PID 92782 (/Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2/alarm/build/classes/java/main started by dongseoklee in /Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2)
+[2025-04-07 23:09:09:390][restartedMain] DEBUG c.dssns.alarm.AlarmApiApplication - Running with Spring Boot v3.3.7, Spring v6.1.16
+[2025-04-07 23:09:09:390][restartedMain] DEBUG c.dssns.alarm.AlarmApiApplication - Running with Spring Boot v3.3.7, Spring v6.1.16
+[2025-04-07 23:09:09:391][restartedMain] INFO  c.dssns.alarm.AlarmApiApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-04-07 23:09:09:391][restartedMain] INFO  c.dssns.alarm.AlarmApiApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-04-07 23:09:09:408][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2025-04-07 23:09:09:408][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2025-04-07 23:09:10:864][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2025-04-07 23:09:10:896][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interface.
+[2025-04-07 23:09:10:1196][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8203 (http)
+[2025-04-07 23:09:10:1202][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8203"]
+[2025-04-07 23:09:10:1203][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2025-04-07 23:09:10:1203][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+[2025-04-07 23:09:10:1236][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2025-04-07 23:09:10:1236][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 828 ms
+[2025-04-07 23:09:10:1260][restartedMain] DEBUG c.dssns.common.config.WebConfig$1 - Filter 'requestTimingFilter' configured for use
+[2025-04-07 23:09:10:1260][restartedMain] DEBUG c.dssns.common.config.WebConfig$1 - Filter 'requestTimingFilter' configured for use
+[2025-04-07 23:09:10:1344][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[2025-04-07 23:09:10:1528][restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@33ce007
+[2025-04-07 23:09:10:1529][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[2025-04-07 23:09:10:1570][restartedMain] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3309/ds_sns (MySQL 8.0)
+[2025-04-07 23:09:10:1595][restartedMain] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Schema history table `ds_sns`.`flyway_schema_history` does not exist yet
+[2025-04-07 23:09:10:1597][restartedMain] INFO  o.f.c.internal.command.DbValidate - Successfully validated 2 migrations (execution time 00:00.011s)
+[2025-04-07 23:09:10:1613][restartedMain] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table `ds_sns`.`flyway_schema_history` ...
+[2025-04-07 23:09:10:1681][restartedMain] INFO  o.f.core.internal.command.DbMigrate - Current version of schema `ds_sns`: << Empty Schema >>
+[2025-04-07 23:09:10:1687][restartedMain] INFO  o.f.core.internal.command.DbMigrate - Migrating schema `ds_sns` to version "1 - create alarm table"
+[2025-04-07 23:09:11:1726][restartedMain] INFO  o.f.core.internal.command.DbMigrate - Migrating schema `ds_sns` to version "2 - add event source type to notification"
+[2025-04-07 23:09:11:1784][restartedMain] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 2 migrations to schema `ds_sns`, now at version v2 (execution time 00:00.048s)
+[2025-04-07 23:09:11:1850][restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2025-04-07 23:09:11:1903][restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+[2025-04-07 23:09:11:1919][restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[2025-04-07 23:09:11:2087][restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2025-04-07 23:09:11:2116][restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2025-04-07 23:09:11:2529][restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2025-04-07 23:09:11:2530][restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2025-04-07 23:09:12:2806][restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2025-04-07 23:09:12:2818][restartedMain] INFO  com.dssns.common.config.WebConfig - addInterceptors start
+[2025-04-07 23:09:12:2818][restartedMain] INFO  com.dssns.common.config.WebConfig - addInterceptors start
+[2025-04-07 23:09:12:3235][restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+[2025-04-07 23:09:12:3265][restartedMain] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.controllers = []
+	bootstrap.servers = [localhost:29092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = alarm-api-admin-0
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	enable.metrics.push = true
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+[2025-04-07 23:09:12:3294][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka version: 3.9.0
+[2025-04-07 23:09:12:3294][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId: 84caaa6e9da06435
+[2025-04-07 23:09:12:3294][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka startTimeMs: 1744034952602
+[2025-04-07 23:09:12:3497][kafka-admin-client-thread | alarm-api-admin-0] INFO  o.a.k.common.utils.AppInfoParser - App info kafka.admin.client for alarm-api-admin-0 unregistered
+[2025-04-07 23:09:12:3500][kafka-admin-client-thread | alarm-api-admin-0] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+[2025-04-07 23:09:12:3500][kafka-admin-client-thread | alarm-api-admin-0] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+[2025-04-07 23:09:12:3500][kafka-admin-client-thread | alarm-api-admin-0] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+[2025-04-07 23:09:12:3507][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8203"]
+[2025-04-07 23:09:12:3514][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8203 (http) with context path '/'
+[2025-04-07 23:09:12:3529][restartedMain] INFO  o.a.k.c.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:29092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-alarm-api-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	enable.metrics.push = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = alarm-api
+	group.instance.id = null
+	group.protocol = classic
+	group.remote.assignor = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class com.dssns.alarm.event.NotificationEventDeserializer
+
+[2025-04-07 23:09:12:3550][restartedMain] INFO  o.a.k.c.t.i.KafkaMetricsCollector - initializing Kafka metrics collector
+[2025-04-07 23:09:12:3572][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka version: 3.9.0
+[2025-04-07 23:09:12:3572][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId: 84caaa6e9da06435
+[2025-04-07 23:09:12:3572][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka startTimeMs: 1744034952880
+[2025-04-07 23:09:12:3573][restartedMain] INFO  o.a.k.c.c.i.ClassicKafkaConsumer - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] Subscribed to topic(s): notification-events
+[2025-04-07 23:09:12:3584][restartedMain] INFO  c.dssns.alarm.AlarmApiApplication - Started AlarmApiApplication in 3.489 seconds (process running for 4.038)
+[2025-04-07 23:09:12:3584][restartedMain] INFO  c.dssns.alarm.AlarmApiApplication - Started AlarmApiApplication in 3.489 seconds (process running for 4.038)
+[2025-04-07 23:09:12:3588][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] Cluster ID: YuxSHGKMQX2bRM4-PxuXoQ
+[2025-04-07 23:09:13:4477][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] Discovered group coordinator localhost:29092 (id: 2147483646 rack: null)
+[2025-04-07 23:09:13:4479][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] (Re-)joining group
+[2025-04-07 23:09:13:4520][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] Request joining group due to: need to re-join with the given member-id: consumer-alarm-api-1-7c9a8c61-b9ca-455d-b4b2-63836f40be49
+[2025-04-07 23:09:13:4520][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] (Re-)joining group
+[2025-04-07 23:09:16:7552][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] Successfully joined group with generation Generation{generationId=1, memberId='consumer-alarm-api-1-7c9a8c61-b9ca-455d-b4b2-63836f40be49', protocol='range'}
+[2025-04-07 23:09:16:7561][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] Finished assignment for group at generation 1: {consumer-alarm-api-1-7c9a8c61-b9ca-455d-b4b2-63836f40be49=Assignment(partitions=[notification-events-0, notification-events-1, notification-events-2])}
+[2025-04-07 23:09:16:7589][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] Successfully synced group in generation Generation{generationId=1, memberId='consumer-alarm-api-1-7c9a8c61-b9ca-455d-b4b2-63836f40be49', protocol='range'}
+[2025-04-07 23:09:16:7589][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] Notifying assignor about the new Assignment(partitions=[notification-events-0, notification-events-1, notification-events-2])
+[2025-04-07 23:09:16:7591][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerRebalanceListenerInvoker - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] Adding newly assigned partitions: notification-events-0, notification-events-1, notification-events-2
+[2025-04-07 23:09:16:7603][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] Found no committed offset for partition notification-events-2
+[2025-04-07 23:09:16:7603][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] Found no committed offset for partition notification-events-1
+[2025-04-07 23:09:16:7603][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] Found no committed offset for partition notification-events-0
+[2025-04-07 23:09:16:7607][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] Found no committed offset for partition notification-events-2
+[2025-04-07 23:09:16:7607][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] Found no committed offset for partition notification-events-1
+[2025-04-07 23:09:16:7607][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] Found no committed offset for partition notification-events-0
+[2025-04-07 23:09:16:7634][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.SubscriptionState - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] Resetting offset for partition notification-events-2 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:29092 (id: 1 rack: null)], epoch=0}}.
+[2025-04-07 23:09:16:7635][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.SubscriptionState - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] Resetting offset for partition notification-events-1 to position FetchPosition{offset=13, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:29092 (id: 1 rack: null)], epoch=0}}.
+[2025-04-07 23:09:16:7635][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.SubscriptionState - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] Resetting offset for partition notification-events-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:29092 (id: 1 rack: null)], epoch=0}}.
+[2025-04-07 23:09:16:7646][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - alarm-api: partitions assigned: [notification-events-0, notification-events-1, notification-events-2]
+[2025-04-07 23:09:32:22813][http-nio-8203-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2025-04-07 23:09:32:22813][http-nio-8203-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2025-04-07 23:09:32:22816][http-nio-8203-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+[2025-04-07 23:09:32:22904][http-nio-8203-exec-2] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion start: /swagger-ui/swagger-ui-standalone-preset.js
+[2025-04-07 23:09:32:22904][http-nio-8203-exec-2] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion start: /swagger-ui/swagger-ui-standalone-preset.js
+[2025-04-07 23:09:32:22905][http-nio-8203-exec-3] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion start: /swagger-ui/swagger-initializer.js
+[2025-04-07 23:09:32:22905][http-nio-8203-exec-3] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion start: /swagger-ui/swagger-initializer.js
+[2025-04-07 23:09:32:22911][http-nio-8203-exec-1] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion start: /swagger-ui/swagger-ui-bundle.js
+[2025-04-07 23:09:32:22911][http-nio-8203-exec-1] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion start: /swagger-ui/swagger-ui-bundle.js
+[2025-04-07 23:09:32:22918][http-nio-8203-exec-2] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion end: /swagger-ui/swagger-ui-standalone-preset.js
+[2025-04-07 23:09:32:22918][http-nio-8203-exec-3] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion end: /swagger-ui/swagger-initializer.js
+[2025-04-07 23:09:32:22918][http-nio-8203-exec-1] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion end: /swagger-ui/swagger-ui-bundle.js
+[2025-04-07 23:09:32:22918][http-nio-8203-exec-2] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion end: /swagger-ui/swagger-ui-standalone-preset.js
+[2025-04-07 23:09:32:22918][http-nio-8203-exec-3] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion end: /swagger-ui/swagger-initializer.js
+[2025-04-07 23:09:32:22918][http-nio-8203-exec-1] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion end: /swagger-ui/swagger-ui-bundle.js
+[2025-04-07 23:09:32:23312][http-nio-8203-exec-7] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion start: /v3/api-docs/swagger-config
+[2025-04-07 23:09:32:23312][http-nio-8203-exec-7] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion start: /v3/api-docs/swagger-config
+[2025-04-07 23:09:32:23313][http-nio-8203-exec-7] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion end: /v3/api-docs/swagger-config
+[2025-04-07 23:09:32:23313][http-nio-8203-exec-7] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion end: /v3/api-docs/swagger-config
+[2025-04-07 23:09:32:23549][http-nio-8203-exec-8] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 154 ms
+[2025-04-07 23:09:32:23560][http-nio-8203-exec-8] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion start: /v3/api-docs
+[2025-04-07 23:09:32:23560][http-nio-8203-exec-8] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion start: /v3/api-docs
+[2025-04-07 23:09:32:23561][http-nio-8203-exec-8] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion end: /v3/api-docs
+[2025-04-07 23:09:32:23561][http-nio-8203-exec-8] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion end: /v3/api-docs
+[2025-04-07 23:09:42:32900][http-nio-8203-exec-10] DEBUG org.hibernate.SQL - 
+    /* <criteria> */ select
+        n1_0.id,
+        n1_0.created_at,
+        n1_0.event_source_id,
+        n1_0.event_source_type,
+        n1_0.event_type,
+        n1_0.event_user_id,
+        n1_0.is_read,
+        n1_0.message,
+        n1_0.read_dt,
+        n1_0.receiver_user_id 
+    from
+        notification n1_0 
+    where
+        n1_0.receiver_user_id=? 
+        and not(n1_0.is_read)
+[2025-04-07 23:09:42:32924][http-nio-8203-exec-10] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion start: /notifications
+[2025-04-07 23:09:42:32924][http-nio-8203-exec-10] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion start: /notifications
+[2025-04-07 23:09:42:32925][http-nio-8203-exec-10] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion end: /notifications
+[2025-04-07 23:09:42:32925][http-nio-8203-exec-10] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion end: /notifications
+[2025-04-07 23:10:53:104461][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerRebalanceListenerInvoker - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] Revoke previously assigned partitions notification-events-0, notification-events-1, notification-events-2
+[2025-04-07 23:10:53:104463][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - alarm-api: partitions revoked: [notification-events-0, notification-events-1, notification-events-2]
+[2025-04-07 23:10:53:104463][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] Member consumer-alarm-api-1-7c9a8c61-b9ca-455d-b4b2-63836f40be49 sending LeaveGroup request to coordinator localhost:29092 (id: 2147483646 rack: null) due to the consumer unsubscribed from all topics
+[2025-04-07 23:10:53:104464][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] Resetting generation and member id due to: consumer pro-actively leaving the group
+[2025-04-07 23:10:53:104464][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] Request joining group due to: consumer pro-actively leaving the group
+[2025-04-07 23:10:53:104464][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ClassicKafkaConsumer - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] Unsubscribed all topics or patterns and assigned partitions
+[2025-04-07 23:10:53:104467][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] Resetting generation and member id due to: consumer pro-actively leaving the group
+[2025-04-07 23:10:53:104467][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] Request joining group due to: consumer pro-actively leaving the group
+[2025-04-07 23:10:53:104507][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+[2025-04-07 23:10:53:104507][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+[2025-04-07 23:10:53:104507][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+[2025-04-07 23:10:53:104508][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+[2025-04-07 23:10:53:104510][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.common.utils.AppInfoParser - App info kafka.consumer for consumer-alarm-api-1 unregistered
+[2025-04-07 23:10:53:104511][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - alarm-api: Consumer stopped
+[2025-04-07 23:10:53:104532][SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2025-04-07 23:10:53:104544][SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[2025-04-07 23:10:53:104553][SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[2025-04-07 23:10:56:353][background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[2025-04-07 23:10:56:371][restartedMain] INFO  c.dssns.alarm.AlarmApiApplication - Starting AlarmApiApplication using Java 17.0.13 with PID 93229 (/Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2/alarm/build/classes/java/main started by dongseoklee in /Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2)
+[2025-04-07 23:10:56:371][restartedMain] INFO  c.dssns.alarm.AlarmApiApplication - Starting AlarmApiApplication using Java 17.0.13 with PID 93229 (/Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2/alarm/build/classes/java/main started by dongseoklee in /Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2)
+[2025-04-07 23:10:56:372][restartedMain] DEBUG c.dssns.alarm.AlarmApiApplication - Running with Spring Boot v3.3.7, Spring v6.1.16
+[2025-04-07 23:10:56:372][restartedMain] DEBUG c.dssns.alarm.AlarmApiApplication - Running with Spring Boot v3.3.7, Spring v6.1.16
+[2025-04-07 23:10:56:372][restartedMain] INFO  c.dssns.alarm.AlarmApiApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-04-07 23:10:56:372][restartedMain] INFO  c.dssns.alarm.AlarmApiApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-04-07 23:10:56:400][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2025-04-07 23:10:56:400][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2025-04-07 23:10:57:959][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2025-04-07 23:10:57:992][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interface.
+[2025-04-07 23:10:57:1317][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8203 (http)
+[2025-04-07 23:10:57:1323][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8203"]
+[2025-04-07 23:10:57:1324][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2025-04-07 23:10:57:1324][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+[2025-04-07 23:10:57:1351][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2025-04-07 23:10:57:1351][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 950 ms
+[2025-04-07 23:10:57:1377][restartedMain] DEBUG c.dssns.common.config.WebConfig$1 - Filter 'requestTimingFilter' configured for use
+[2025-04-07 23:10:57:1377][restartedMain] DEBUG c.dssns.common.config.WebConfig$1 - Filter 'requestTimingFilter' configured for use
+[2025-04-07 23:10:57:1476][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[2025-04-07 23:10:57:1788][restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@39ccae5e
+[2025-04-07 23:10:57:1791][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[2025-04-07 23:10:58:1912][restartedMain] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3309/ds_sns (MySQL 8.0)
+[2025-04-07 23:10:58:2024][restartedMain] INFO  o.f.c.internal.command.DbValidate - Successfully validated 2 migrations (execution time 00:00.074s)
+[2025-04-07 23:10:58:2067][restartedMain] INFO  o.f.core.internal.command.DbMigrate - Current version of schema `ds_sns`: 2
+[2025-04-07 23:10:58:2072][restartedMain] INFO  o.f.core.internal.command.DbMigrate - Schema `ds_sns` is up to date. No migration necessary.
+[2025-04-07 23:10:58:2265][restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2025-04-07 23:10:58:2458][restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+[2025-04-07 23:10:58:2535][restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[2025-04-07 23:10:58:2790][restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2025-04-07 23:10:59:2839][restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2025-04-07 23:10:59:3453][restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2025-04-07 23:10:59:3455][restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2025-04-07 23:11:00:3845][restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2025-04-07 23:11:00:3864][restartedMain] INFO  com.dssns.common.config.WebConfig - addInterceptors start
+[2025-04-07 23:11:00:3864][restartedMain] INFO  com.dssns.common.config.WebConfig - addInterceptors start
+[2025-04-07 23:11:00:4343][restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+[2025-04-07 23:11:00:4383][restartedMain] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.controllers = []
+	bootstrap.servers = [localhost:29092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = alarm-api-admin-0
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	enable.metrics.push = true
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+[2025-04-07 23:11:00:4440][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka version: 3.9.0
+[2025-04-07 23:11:00:4441][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId: 84caaa6e9da06435
+[2025-04-07 23:11:00:4441][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka startTimeMs: 1744035060626
+[2025-04-07 23:11:00:4748][kafka-admin-client-thread | alarm-api-admin-0] INFO  o.a.k.common.utils.AppInfoParser - App info kafka.admin.client for alarm-api-admin-0 unregistered
+[2025-04-07 23:11:00:4767][kafka-admin-client-thread | alarm-api-admin-0] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+[2025-04-07 23:11:00:4767][kafka-admin-client-thread | alarm-api-admin-0] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+[2025-04-07 23:11:00:4768][kafka-admin-client-thread | alarm-api-admin-0] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+[2025-04-07 23:11:00:4775][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8203"]
+[2025-04-07 23:11:00:4782][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8203 (http) with context path '/'
+[2025-04-07 23:11:00:4797][restartedMain] INFO  o.a.k.c.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:29092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-alarm-api-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	enable.metrics.push = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = alarm-api
+	group.instance.id = null
+	group.protocol = classic
+	group.remote.assignor = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class com.dssns.alarm.event.NotificationEventDeserializer
+
+[2025-04-07 23:11:01:4815][restartedMain] INFO  o.a.k.c.t.i.KafkaMetricsCollector - initializing Kafka metrics collector
+[2025-04-07 23:11:01:4835][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka version: 3.9.0
+[2025-04-07 23:11:01:4835][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId: 84caaa6e9da06435
+[2025-04-07 23:11:01:4835][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka startTimeMs: 1744035061024
+[2025-04-07 23:11:01:4836][restartedMain] INFO  o.a.k.c.c.i.ClassicKafkaConsumer - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] Subscribed to topic(s): notification-events
+[2025-04-07 23:11:01:4847][restartedMain] INFO  c.dssns.alarm.AlarmApiApplication - Started AlarmApiApplication in 4.757 seconds (process running for 5.311)
+[2025-04-07 23:11:01:4847][restartedMain] INFO  c.dssns.alarm.AlarmApiApplication - Started AlarmApiApplication in 4.757 seconds (process running for 5.311)
+[2025-04-07 23:11:01:4850][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] Cluster ID: YuxSHGKMQX2bRM4-PxuXoQ
+[2025-04-07 23:11:01:4854][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] Discovered group coordinator localhost:29092 (id: 2147483646 rack: null)
+[2025-04-07 23:11:01:4856][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] (Re-)joining group
+[2025-04-07 23:11:01:4871][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] Request joining group due to: need to re-join with the given member-id: consumer-alarm-api-1-4f31d424-4ebd-4f5a-ab20-824f62a22056
+[2025-04-07 23:11:01:4871][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] (Re-)joining group
+[2025-04-07 23:11:01:4925][http-nio-8203-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2025-04-07 23:11:01:4925][http-nio-8203-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2025-04-07 23:11:01:4926][http-nio-8203-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[2025-04-07 23:11:01:5051][http-nio-8203-exec-1] DEBUG org.hibernate.SQL - 
+    /* <criteria> */ select
+        n1_0.id,
+        n1_0.created_at,
+        n1_0.event_source_id,
+        n1_0.event_source_type,
+        n1_0.event_type,
+        n1_0.event_user_id,
+        n1_0.is_read,
+        n1_0.message,
+        n1_0.read_dt,
+        n1_0.receiver_user_id 
+    from
+        notification n1_0 
+    where
+        n1_0.receiver_user_id=? 
+        and not(n1_0.is_read)
+[2025-04-07 23:11:01:5084][http-nio-8203-exec-1] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion start: /notifications
+[2025-04-07 23:11:01:5084][http-nio-8203-exec-1] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion start: /notifications
+[2025-04-07 23:11:01:5087][http-nio-8203-exec-1] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion end: /notifications
+[2025-04-07 23:11:01:5087][http-nio-8203-exec-1] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion end: /notifications
+[2025-04-07 23:11:02:6726][http-nio-8203-exec-3] DEBUG org.hibernate.SQL - 
+    /* <criteria> */ select
+        n1_0.id,
+        n1_0.created_at,
+        n1_0.event_source_id,
+        n1_0.event_source_type,
+        n1_0.event_type,
+        n1_0.event_user_id,
+        n1_0.is_read,
+        n1_0.message,
+        n1_0.read_dt,
+        n1_0.receiver_user_id 
+    from
+        notification n1_0 
+    where
+        n1_0.receiver_user_id=? 
+        and not(n1_0.is_read)
+[2025-04-07 23:11:02:6730][http-nio-8203-exec-3] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion start: /notifications
+[2025-04-07 23:11:02:6730][http-nio-8203-exec-3] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion start: /notifications
+[2025-04-07 23:11:02:6731][http-nio-8203-exec-3] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion end: /notifications
+[2025-04-07 23:11:02:6731][http-nio-8203-exec-3] INFO  c.d.c.i.UserActivityInterceptor - afterCompletion end: /notifications
+[2025-04-07 23:11:04:7945][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] Successfully joined group with generation Generation{generationId=3, memberId='consumer-alarm-api-1-4f31d424-4ebd-4f5a-ab20-824f62a22056', protocol='range'}
+[2025-04-07 23:11:04:7955][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] Finished assignment for group at generation 3: {consumer-alarm-api-1-4f31d424-4ebd-4f5a-ab20-824f62a22056=Assignment(partitions=[notification-events-0, notification-events-1, notification-events-2])}
+[2025-04-07 23:11:04:7968][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] Successfully synced group in generation Generation{generationId=3, memberId='consumer-alarm-api-1-4f31d424-4ebd-4f5a-ab20-824f62a22056', protocol='range'}
+[2025-04-07 23:11:04:7969][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] Notifying assignor about the new Assignment(partitions=[notification-events-0, notification-events-1, notification-events-2])
+[2025-04-07 23:11:04:7971][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerRebalanceListenerInvoker - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] Adding newly assigned partitions: notification-events-0, notification-events-1, notification-events-2
+[2025-04-07 23:11:04:8003][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.internals.ConsumerUtils - Setting offset for partition notification-events-0 to the committed offset FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:29092 (id: 1 rack: null)], epoch=0}}
+[2025-04-07 23:11:04:8003][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.internals.ConsumerUtils - Setting offset for partition notification-events-2 to the committed offset FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:29092 (id: 1 rack: null)], epoch=0}}
+[2025-04-07 23:11:04:8003][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.internals.ConsumerUtils - Setting offset for partition notification-events-1 to the committed offset FetchPosition{offset=13, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:29092 (id: 1 rack: null)], epoch=0}}
+[2025-04-07 23:11:04:8005][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - alarm-api: partitions assigned: [notification-events-0, notification-events-1, notification-events-2]
+[2025-04-07 23:12:21:85363][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerRebalanceListenerInvoker - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] Revoke previously assigned partitions notification-events-0, notification-events-1, notification-events-2
+[2025-04-07 23:12:21:85371][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - alarm-api: partitions revoked: [notification-events-0, notification-events-1, notification-events-2]
+[2025-04-07 23:12:21:85372][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] Member consumer-alarm-api-1-4f31d424-4ebd-4f5a-ab20-824f62a22056 sending LeaveGroup request to coordinator localhost:29092 (id: 2147483646 rack: null) due to the consumer unsubscribed from all topics
+[2025-04-07 23:12:21:85374][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] Resetting generation and member id due to: consumer pro-actively leaving the group
+[2025-04-07 23:12:21:85374][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] Request joining group due to: consumer pro-actively leaving the group
+[2025-04-07 23:12:21:85374][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ClassicKafkaConsumer - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] Unsubscribed all topics or patterns and assigned partitions
+[2025-04-07 23:12:21:85393][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] Resetting generation and member id due to: consumer pro-actively leaving the group
+[2025-04-07 23:12:21:85393][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-alarm-api-1, groupId=alarm-api] Request joining group due to: consumer pro-actively leaving the group
+[2025-04-07 23:12:21:85436][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+[2025-04-07 23:12:21:85436][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+[2025-04-07 23:12:21:85437][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+[2025-04-07 23:12:21:85437][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+[2025-04-07 23:12:21:85465][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.common.utils.AppInfoParser - App info kafka.consumer for consumer-alarm-api-1 unregistered
+[2025-04-07 23:12:21:85466][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - alarm-api: Consumer stopped
+[2025-04-07 23:12:21:85564][SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2025-04-07 23:12:21:85571][SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[2025-04-07 23:12:21:85605][SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
