@@ -56,6 +56,34 @@ output {
     template_overwrite => true
   }
 }
+
+PUT _template/logstash-user_access-template
+{
+  "index_patterns": ["logstash-user_access-*"],
+  "settings": {
+    "number_of_shards": 1
+  },
+  "mappings": {
+    "properties": {
+      "eventId": { "type": "keyword" },
+      "timestamp": { "type": "date" },
+      "userId": { "type": "keyword" },
+      "userLoginId": { "type": "keyword" },
+      "jti": { "type": "keyword" },
+      "eventType": { "type": "keyword" },
+      "device": { "type": "keyword" },
+      "location": { "type": "keyword" },
+      "pageUrl": { "type": "text" },
+      "method": { "type": "keyword" },
+      "endpoint": { "type": "keyword" },
+      "statusCode": { "type": "integer" },
+      "responseTime": { "type": "integer" },
+      "requestUid": { "type": "keyword" }
+    }
+  }
+}
+
+GET _cat/templates?v
 ```
 
 # 남은 작업.
