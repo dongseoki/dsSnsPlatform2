@@ -20,6 +20,10 @@
 - [like/] : 좋아요 기능을 구현한 모듈로, 좋아요 관련 엔티티 및 서비스 로직이 포함된 디렉터리입니다.
 - [.gitignore] : 특정 파일을 버전 관리에서 제외하기 위한 Git 설정 파일입니다.
 
+## convention
+- java coding convention : https://github.com/google/styleguide/blob/gh-pages/intellij-java-google-style.xml
+- git convention : https://udacity.github.io/git-styleguide/
+
 ## 프로젝트 실행 방법
 ### 로컬 개발 환경
 #### API 서버 실행 (board, like, alarm)
