@@ -11,11 +11,12 @@ import lombok.NoArgsConstructor;
 @Getter
 @AllArgsConstructor
 public class AddCommentRequestDto {
-	@Schema(example = "댓글 내용", description = "댓글 내용")
-	private String commentContent;
 
-	// FIXME 추후 SecurityContextHolder.getContext().getAuthentication()에서 가져오도록 수정
-	@Schema(example = "1", description = "생성 유저 번호")
-	@NotNull
-	private Long createUserNo;
+  @Schema(example = "댓글 내용", description = "댓글 내용")
+  private String commentContent;
+
+  // FIXME 추후 SecurityContextHolder.getContext().getAuthentication()에서 가져오도록 수정
+  @Schema(example = "1", description = "생성 유저 번호")
+  @NotNull
+  private Long createUserNo;
 }

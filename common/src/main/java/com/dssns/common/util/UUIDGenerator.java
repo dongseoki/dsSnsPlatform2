@@ -1,4 +1,5 @@
 package com.dssns.common.util;
+
 import io.micrometer.common.util.StringUtils;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -7,7 +8,7 @@ import java.util.UUID;
 public class UUIDGenerator {
 
   public static String generateUUIDWithPrefix(String prefixCode) {
-    if(StringUtils.isEmpty(prefixCode)){
+    if (StringUtils.isEmpty(prefixCode)) {
       prefixCode = "";
     }
     String prefix = prefixCode + "_";

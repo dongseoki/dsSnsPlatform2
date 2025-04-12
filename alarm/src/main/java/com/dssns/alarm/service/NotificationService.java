@@ -17,11 +17,13 @@ import org.springframework.transaction.annotation.Transactional;
 @Service
 @RequiredArgsConstructor
 public class NotificationService {
+
   private final NotificationRepository notificationRepository;
 
 
   public GetNotificationListRes getUnreadNotifications(@NotNull Long userId) {
-    List<Notification> notifications = notificationRepository.findAllByReceiverUserIdAndIsReadIsFalse(userId);
+    List<Notification> notifications = notificationRepository.findAllByReceiverUserIdAndIsReadIsFalse(
+        userId);
     List<GetNotificationItem> notificationItems = notifications.stream()
         .map(GetNotificationItem::fromEntity)
         .collect(Collectors.toList());

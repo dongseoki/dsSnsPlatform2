@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
-<!--  일반 로그 설정-->
+  <!--  일반 로그 설정-->
   <!--로그 파일 저장 위치-->
   <property name="LOGS_PATH" value="./logs/api"/>
   <property name="LOGS_API_FILE_NAME" value="board_api"/>
@@ -10,10 +10,12 @@
       <Pattern>%d{HH:mm} %highlight(%-5level) %cyan(%logger{36}) - %msg%n</Pattern>
     </layout>
   </appender>
-  <appender name="DAILY_ROLLING_FILE_APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+  <appender name="DAILY_ROLLING_FILE_APPENDER"
+    class="ch.qos.logback.core.rolling.RollingFileAppender">
     <file>${LOGS_PATH}/${LOGS_API_FILE_NAME}.log</file>
     <encoder>
-      <pattern>[%d{yyyy-MM-dd HH:mm:ss}:%-3relative][%thread] %-5level %logger{35} - %msg%n</pattern>
+      <pattern>[%d{yyyy-MM-dd HH:mm:ss}:%-3relative][%thread] %-5level %logger{35} - %msg%n
+      </pattern>
     </encoder>
     <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
       <!-- 파일 이름 패턴에 %i 사용 가능 -->
@@ -43,10 +45,13 @@
   <property name="LOGS_USER_ACTIVITY_PATH" value="./logs/user_activity"/>
   <property name="LOGS_USER_ACTIVITY_ACCESS_FILE_NAME" value="user_access"/>
   <!-- 사용자 활동 로그를 위한 파일 앱렌더 설정 -->
-  <appender name="USER_ACTIVITY_ACCESS_APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+  <appender name="USER_ACTIVITY_ACCESS_APPENDER"
+    class="ch.qos.logback.core.rolling.RollingFileAppender">
     <file>${LOGS_USER_ACTIVITY_PATH}/${LOGS_USER_ACTIVITY_ACCESS_FILE_NAME}.log</file>
     <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-      <fileNamePattern>${LOGS_USER_ACTIVITY_PATH}/${LOGS_USER_ACTIVITY_ACCESS_FILE_NAME}.%d{yyyy-MM-dd}.log</fileNamePattern>
+      <fileNamePattern>
+        ${LOGS_USER_ACTIVITY_PATH}/${LOGS_USER_ACTIVITY_ACCESS_FILE_NAME}.%d{yyyy-MM-dd}.log
+      </fileNamePattern>
       <maxHistory>30</maxHistory>
     </rollingPolicy>
     <encoder>

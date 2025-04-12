@@ -13,7 +13,6 @@ import jakarta.persistence.OneToMany;
 import java.util.ArrayList;
 import java.util.List;
 import lombok.AccessLevel;
-import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -33,48 +32,49 @@ import org.springframework.util.ObjectUtils;
 @ToString
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class User extends BaseEntity {
-	@Id
-	@GeneratedValue(strategy = jakarta.persistence.GenerationType.IDENTITY)
-	@Column(name = "user_no")
-	private Long id;
-	private String email;
-	private String password;
-	private String userId;
-	private String nickname;
 
-	private String introduction;
+  @Id
+  @GeneratedValue(strategy = jakarta.persistence.GenerationType.IDENTITY)
+  @Column(name = "user_no")
+  private Long id;
+  private String email;
+  private String password;
+  private String userId;
+  private String nickname;
 
-	@Column(name = "role")
-	@Enumerated(EnumType.STRING)
-	private Role role;
+  private String introduction;
 
-	@Builder.Default
-	@OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
-	private List<PostLike> postLikeList = new ArrayList<>();
+  @Column(name = "role")
+  @Enumerated(EnumType.STRING)
+  private Role role;
 
-	public User(Long id, String email, String password, String userId, String nickname,
-		String introduction, Role role, List<PostLike> postLikeList) {
-		this.id = id;
-		this.email = email;
-		this.password = password;
-		this.userId = userId;
-		this.nickname = nickname;
-		this.introduction = introduction;
-		this.role = role;
-		this.postLikeList = postLikeList;
-	}
+  @Builder.Default
+  @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
+  private List<PostLike> postLikeList = new ArrayList<>();
 
-	public static User of(Long userNo) {
-		return User.builder().id(userNo).build();
-	}
+  public User(Long id, String email, String password, String userId, String nickname,
+      String introduction, Role role, List<PostLike> postLikeList) {
+    this.id = id;
+    this.email = email;
+    this.password = password;
+    this.userId = userId;
+    this.nickname = nickname;
+    this.introduction = introduction;
+    this.role = role;
+    this.postLikeList = postLikeList;
+  }
 
-	// bi-directional convenience method
+  public static User of(Long userNo) {
+    return User.builder().id(userNo).build();
+  }
 
-	private void addPostLike(PostLike postLike) {
-		if (!ObjectUtils.isEmpty(postLike)) {
-			this.postLikeList.add(postLike);
-			postLike.setUser(this);
-		}
-	}
+  // bi-directional convenience method
+
+  private void addPostLike(PostLike postLike) {
+    if (!ObjectUtils.isEmpty(postLike)) {
+      this.postLikeList.add(postLike);
+      postLike.setUser(this);
+    }
+  }
 
 }

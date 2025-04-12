@@ -13,8 +13,10 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest(classes = BoardApplication.class)
 class ModuleConfigTest {
+
   @Autowired
   private ObjectMapper objectMapper;
+
   @Test
   void instantSerializationSuccessTest() throws Exception {
     // given

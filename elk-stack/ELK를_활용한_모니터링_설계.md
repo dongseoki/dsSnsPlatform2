@@ -11,36 +11,40 @@
     - http://localhost:9200/_cat/indices?v
 - 적재된 인덱스를 kibana에 연결하시고 적재된 logs를 조회해봅니다.
 - 해당 로그 중 필요하다고 생각되는 집계 데이터를 생성하여 kibana 대시보드에 line graph 등 필요한 차트로 가시화 합니다.
+
 </aside>이거 작업을 진행하려고해. 어떤 단계로 작업을 진행하는게 좋을까
 
 # gpt 설명
 
 # 과제 수행 계획.
+
 * 이전에 잘 되던 ELK 테스트.
 * docker-compose 설계(es, logstash, kibans 설정)
-  * elk 폴더 분리. 하위에 elk dockercompose 명시 및 필요한 파일 및 폴더 명시
-  * es 설정
-  * kibana 설정
-  * logstash 설정.
+    * elk 폴더 분리. 하위에 elk dockercompose 명시 및 필요한 파일 및 폴더 명시
+    * es 설정
+    * kibana 설정
+    * logstash 설정.
 * 정상 동작의 확인
-  * es
-  * kibana 
-  * logstash
+    * es
+    * kibana
+    * logstash
 * 대쉬보드 생성 작업.
-  * 설계
-  * 작업.
+    * 설계
+    * 작업.
 * 일반 API 로그도 해당 형태로 적재 시도.
-  * 대쉬보드 생성.
-  * 확인.
+    * 대쉬보드 생성.
+    * 확인.
 * 일부 잘된거 이미지 캡처
 * 필요시 작동 방법 README 정리.
 
 # 참고시
+
 * https://www.notion.so/1-ElasticSearch-1b39bf7c712281298670e1d68f0541af#1b39bf7c712281408631eace31758cc9
 * 11주 1일차 자료를 메인으로 차고.
 * 11주차 교재는 다음과 같음.
 * https://www.notion.so/JAVA_11-_-1b39bf7c71228000a226f996a3d330f6
 
 # 참고자료
+
 * https://chatgpt.com/share/67f0dea1-c06c-8011-bd45-ba0bbe7df90d
 * https://github.com/KDT-Java/sparta-java-1-project-week-11-3-elk-pipelines

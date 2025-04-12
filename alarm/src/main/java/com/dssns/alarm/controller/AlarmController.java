@@ -24,11 +24,14 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/notifications")
 @Tag(name = "알림", description = "알림 API")
 public class AlarmController {
+
   private final NotificationService notificationService;
 
   @PostMapping()
-  public ApiResponse<GetNotificationListRes> getUnreadNotifications(@RequestBody @Valid GetNotificationListReq getNotificationListReq) {
-    return ApiResponse.Success(notificationService.getUnreadNotifications(getNotificationListReq.getUserId()));
+  public ApiResponse<GetNotificationListRes> getUnreadNotifications(
+      @RequestBody @Valid GetNotificationListReq getNotificationListReq) {
+    return ApiResponse.Success(
+        notificationService.getUnreadNotifications(getNotificationListReq.getUserId()));
   }
 
   @PatchMapping("/{id}/read")

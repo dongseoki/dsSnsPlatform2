@@ -12,7 +12,6 @@ public class NotificationEventDeserializer implements Deserializer<NotificationE
   private final ObjectMapper objectMapper = ModuleConfig.generateTimeSupportObjectMapper();
 
 
-
   @Override
   public NotificationEvent deserialize(String topic, byte[] data) {
     try {

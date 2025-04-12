@@ -10,7 +10,6 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -27,23 +26,24 @@ import org.hibernate.annotations.DynamicUpdate;
 @AllArgsConstructor
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class PostLike extends BaseEntity {
-	@Id
-	@GeneratedValue(strategy = jakarta.persistence.GenerationType.IDENTITY)
-	@Column(name = "post_like_no")
-	private Long id;
 
-	@ManyToOne(fetch = FetchType.LAZY)
-	@JoinColumn(name = "user_no")
-	private User user;
+  @Id
+  @GeneratedValue(strategy = jakarta.persistence.GenerationType.IDENTITY)
+  @Column(name = "post_like_no")
+  private Long id;
 
-	@ManyToOne(fetch = FetchType.LAZY)
-	@JoinColumn(name = "post_no")
-	private Post post;
+  @ManyToOne(fetch = FetchType.LAZY)
+  @JoinColumn(name = "user_no")
+  private User user;
 
-	public static PostLike of(User user, Post post) {
-		return PostLike.builder()
-			.user(user)
-			.post(post)
-			.build();
-	}
+  @ManyToOne(fetch = FetchType.LAZY)
+  @JoinColumn(name = "post_no")
+  private Post post;
+
+  public static PostLike of(User user, Post post) {
+    return PostLike.builder()
+        .user(user)
+        .post(post)
+        .build();
+  }
 }

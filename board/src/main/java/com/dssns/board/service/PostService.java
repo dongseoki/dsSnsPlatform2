@@ -1,15 +1,8 @@
 package com.dssns.board.service;
 
-import com.dssns.common.event.NotificationEvent;
-import com.dssns.common.event.NotificationEventProducer;
-import com.dssns.common.event.enums.EventSourceType;
-import com.dssns.common.event.enums.EventType;
-import com.dssns.common.exception.ServiceException;
-import com.dssns.common.exception.ServiceExceptionCode;
 import com.dssns.board.entity.Comment;
 import com.dssns.board.entity.Post;
 import com.dssns.board.entity.PostType;
-import com.dssns.common.entity.YesOrNo;
 import com.dssns.board.repository.CommentRepository;
 import com.dssns.board.repository.PostRepository;
 import com.dssns.board.webdto.AddCommentRequestDto;
@@ -20,21 +13,28 @@ import com.dssns.board.webdto.EditCommentRequestDto;
 import com.dssns.board.webdto.EditPostRequestDto;
 import com.dssns.board.webdto.GetPostCommentsResponseDto;
 import com.dssns.board.webdto.PostResponseDto;
+import com.dssns.common.entity.YesOrNo;
+import com.dssns.common.event.NotificationEvent;
+import com.dssns.common.event.NotificationEventProducer;
+import com.dssns.common.event.enums.EventSourceType;
+import com.dssns.common.event.enums.EventType;
+import com.dssns.common.exception.ServiceException;
+import com.dssns.common.exception.ServiceExceptionCode;
 import jakarta.validation.Valid;
 import java.time.Instant;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-
-import java.util.Optional;
 import org.springframework.transaction.annotation.Transactional;
 
 @Service
 @Slf4j
 @RequiredArgsConstructor
 public class PostService {
+
   private final NotificationEventProducer notificationEventProducer;
   private final PostRepository postRepository;
   private final CommentRepository commentRepository;
@@ -56,7 +56,7 @@ public class PostService {
       if (editPostRequestDto.getPostContent() != null) {
         post.setContent(editPostRequestDto.getPostContent());
       }
-      if (editPostRequestDto.getPostType() != null){
+      if (editPostRequestDto.getPostType() != null) {
         post.setPostType(PostType.valueOf(editPostRequestDto.getPostType()));
       }
       // Add other fields as necessary
@@ -79,9 +79,6 @@ public class PostService {
       throw new ServiceException(ServiceExceptionCode.POST_NOT_FOUND);
     }
   }
-
-//  public Object getPostsV2(Pageable pageable, String searchKeyword, List<Long> searchUserNoList, Boolean isLikedByMe, Boolean isCommentedByMe) {
-//  }
 
   @Transactional(readOnly = true)
   public PostResponseDto getPostDetail(Long postNo) {
@@ -117,7 +114,8 @@ public class PostService {
           .eventUserId(addCommentRequestDto.getCreateUserNo())
           .eventSourceId(postNo)
           .eventSourceType(EventSourceType.POST)
-          .message(String.format("사용자 번호 %d님이 당신의 게시글에 댓글을 남겼습니다.", addCommentRequestDto.getCreateUserNo()))
+          .message(String.format("사용자 번호 %d님이 당신의 게시글에 댓글을 남겼습니다.",
+              addCommentRequestDto.getCreateUserNo()))
           .createdAt(Instant.now())
           .build();
 
@@ -150,7 +148,7 @@ public class PostService {
     }
   }
 
-  public void editComment(Long commentNo,EditCommentRequestDto editCommentRequestDto) {
+  public void editComment(Long commentNo, EditCommentRequestDto editCommentRequestDto) {
     Optional<Comment> optionalComment = commentRepository.findByIdAndDelYnIs(commentNo, YesOrNo.N);
     if (optionalComment.isPresent()) {
       Comment comment = optionalComment.get();

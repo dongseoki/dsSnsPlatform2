@@ -29,27 +29,27 @@ import org.springframework.util.ObjectUtils;
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class Tag extends BaseEntity {
 
-	@Id
-	@GeneratedValue(strategy = jakarta.persistence.GenerationType.IDENTITY)
-	@Column(name = "tag_no")
-	private Long id;
+  @Id
+  @GeneratedValue(strategy = jakarta.persistence.GenerationType.IDENTITY)
+  @Column(name = "tag_no")
+  private Long id;
 
-	private String name;
+  private String name;
 
-	@Builder.Default
-	@OneToMany(mappedBy = "tag")
-	private List<PostTag> postTags = new ArrayList<>();
+  @Builder.Default
+  @OneToMany(mappedBy = "tag")
+  private List<PostTag> postTags = new ArrayList<>();
 
-	public static Tag of(String name) {
-		return Tag.builder().name(name).build();
-	}
+  public static Tag of(String name) {
+    return Tag.builder().name(name).build();
+  }
 
-	// 연관관계 편의 메서드.
-	public void addPostTag(PostTag postTag) {
-		if (!ObjectUtils.isEmpty(postTag)) {
-			postTags.add(postTag);
-			postTag.setTag(this);
-		}
-	}
+  // 연관관계 편의 메서드.
+  public void addPostTag(PostTag postTag) {
+    if (!ObjectUtils.isEmpty(postTag)) {
+      postTags.add(postTag);
+      postTag.setTag(this);
+    }
+  }
 
 }

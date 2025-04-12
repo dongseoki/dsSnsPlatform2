@@ -1,5 +1,7 @@
 ## 카프카 테스트.
+
 ### 쉘 A 토픽 생성자.
+
 ```sh
 /opt/bitnami/kafka/bin/kafka-topics.sh --create --topic test-topic --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
 
@@ -12,6 +14,7 @@
 ```
 
 ### 쉘 B 토픽 구독자
+
 ```sh
 /opt/bitnami/kafka/bin/kafka-console-consumer.sh --topic test-topic --bootstrap-server localhost:9092 --from-beginning
 

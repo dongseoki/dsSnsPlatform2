@@ -11,10 +11,11 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Getter
 public class AddCommentResponseDto {
-	@Schema(example = "1", description = "댓글 번호")
-	private Long commentNo;
 
-	public static AddCommentResponseDto of(Comment comment) {
-		return new AddCommentResponseDto(comment.getId());
-	}
+  @Schema(example = "1", description = "댓글 번호")
+  private Long commentNo;
+
+  public static AddCommentResponseDto of(Comment comment) {
+    return new AddCommentResponseDto(comment.getId());
+  }
 }

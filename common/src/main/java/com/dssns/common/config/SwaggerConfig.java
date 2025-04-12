@@ -10,31 +10,31 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @OpenAPIDefinition(
-	info = @Info(
-		title = "Example API Docs",
-		description = "Description",
-		version = "v1"
-	)
+    info = @Info(
+        title = "Example API Docs",
+        description = "Description",
+        version = "v1"
+    )
 )
 @Configuration
 public class SwaggerConfig {
 
-	private static final String BEARER_TOKEN_PREFIX = "Bearer";
+  private static final String BEARER_TOKEN_PREFIX = "Bearer";
 
-	@Bean
-	public OpenAPI openAPI() {
-		String securityJwtName = "JWT";
-		SecurityRequirement securityRequirement = new SecurityRequirement().addList(securityJwtName);
-		Components components = new Components()
-			.addSecuritySchemes(securityJwtName, new SecurityScheme()
-				.name(securityJwtName)
-				.type(SecurityScheme.Type.HTTP)
-				.scheme(BEARER_TOKEN_PREFIX)
-				.bearerFormat(securityJwtName));
+  @Bean
+  public OpenAPI openAPI() {
+    String securityJwtName = "JWT";
+    SecurityRequirement securityRequirement = new SecurityRequirement().addList(securityJwtName);
+    Components components = new Components()
+        .addSecuritySchemes(securityJwtName, new SecurityScheme()
+            .name(securityJwtName)
+            .type(SecurityScheme.Type.HTTP)
+            .scheme(BEARER_TOKEN_PREFIX)
+            .bearerFormat(securityJwtName));
 
-		return new OpenAPI()
-			.addSecurityItem(securityRequirement)
-			.components(components);
-	}
+    return new OpenAPI()
+        .addSecurityItem(securityRequirement)
+        .components(components);
+  }
 
 }

@@ -10,7 +10,7 @@ services:
     networks:
       - order-network
     healthcheck:
-      test: ["CMD-SHELL", "echo ruok | nc localhost 2181"]
+      test: [ "CMD-SHELL", "echo ruok | nc localhost 2181" ]
       interval: 5s
       timeout: 5s
       retries: 3
@@ -39,7 +39,7 @@ services:
     networks:
       - order-network
     healthcheck:
-      test: ["CMD-SHELL", "kafka-topics.sh --list --bootstrap-server localhost:9092 || exit 1"]
+      test: [ "CMD-SHELL", "kafka-topics.sh --list --bootstrap-server localhost:9092 || exit 1" ]
       interval: 10s
       timeout: 5s
       retries: 5

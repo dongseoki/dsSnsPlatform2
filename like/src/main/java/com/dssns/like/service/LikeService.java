@@ -23,21 +23,23 @@ import org.springframework.stereotype.Service;
 @Slf4j
 @RequiredArgsConstructor
 public class LikeService {
-  private static final Logger userActivityLogger = LoggerFactory.getLogger("USER_ACTIVITY_WISH_LOGGER");
+
+  private static final Logger userActivityLogger = LoggerFactory.getLogger(
+      "USER_ACTIVITY_WISH_LOGGER");
   private final LikeRepository likeRepository;
   private final NotificationEventProducer notificationEventProducer;
   private final ObjectMapper objectMapper;
 
-  public void likePost(Long userId, Long postId, Long postCreatorUserId, UserActivityCommon userActivityCommon) {
+  public void likePost(Long userId, Long postId, Long postCreatorUserId,
+      UserActivityCommon userActivityCommon) {
     // TODO: Validate userNo and postNo
     log.info("Liking post with postNo: {} by userNo: {}", postId, userId);
     Like newLike =
-    likeRepository.findByRefTblAndRefIdAndCreatedByAndDelYnIs("post", postId, userId, YesOrNo.N)
-        .orElse(Like.builder().refTbl("post").refId(postId).createdBy(userId).build());
+        likeRepository.findByRefTblAndRefIdAndCreatedByAndDelYnIs("post", postId, userId, YesOrNo.N)
+            .orElse(Like.builder().refTbl("post").refId(postId).createdBy(userId).build());
 
-
-      likeRepository.save(newLike);
-    try{
+    likeRepository.save(newLike);
+    try {
       NotificationEvent notificationEvent = NotificationEvent.builder()
           .eventType(EventType.LIKE)
           // FIXME  receiverUserId를 적절히 수정해야한다. Api를 통해서 받아온 postNo를 사용하도록 추후 조치 필요.
@@ -54,15 +56,14 @@ public class LikeService {
       log.error("Error while public event: {}", e.getMessage());
     }
 
-    try{
+    try {
       UserActivityWish userActivityWish
           = new UserActivityWish(EventSourceType.POST.getValue()
           , String.valueOf(postId)
           , String.valueOf(userId)
           , userActivityCommon);
       userActivityLogger.info(objectMapper.writeValueAsString(userActivityWish));
-    }
-    catch (Exception e){
+    } catch (Exception e) {
       log.error("Error while create user activity log: {}", e.getMessage());
     }
 
@@ -86,18 +87,21 @@ public class LikeService {
     return likeRepository.countByRefTblAndRefIdAndDelYn("post", postNo, YesOrNo.N);
   }
 
-  public void likeComment(Long userId, Long commentId, Long commentCreatorUserId, UserActivityCommon userActivityCommon) {
+  public void likeComment(Long userId, Long commentId, Long commentCreatorUserId,
+      UserActivityCommon userActivityCommon) {
     // TODO: Validate userNo and commentNo
     Like newLike =
-        likeRepository.findByRefTblAndRefIdAndCreatedByAndDelYnIs("comment", commentId, userId, YesOrNo.N)
+        likeRepository.findByRefTblAndRefIdAndCreatedByAndDelYnIs("comment", commentId, userId,
+                YesOrNo.N)
             .orElse(Like.builder().refTbl("comment").refId(commentId).createdBy(userId).build());
     likeRepository.save(newLike);
 
-    try{
+    try {
       NotificationEvent notificationEvent = NotificationEvent.builder()
           .eventType(EventType.LIKE)
           // FIXME receiverUserId를 적절히 수정해야한다. Api를 통해서 받아온 comment 의 createdBy를 사용하도록 추후 조치 필요.
-          .receiverUserId(commentCreatorUserId) // Assuming commentNo is the ID of the user who created the comment
+          .receiverUserId(
+              commentCreatorUserId) // Assuming commentNo is the ID of the user who created the comment
           .eventUserId(userId)
           .eventSourceId(commentId)
           .eventSourceType(EventSourceType.COMMENT)
@@ -106,19 +110,18 @@ public class LikeService {
           .build();
 
       notificationEventProducer.publishNotificationEventCreated(notificationEvent);
-    } catch(Exception e) {
+    } catch (Exception e) {
       log.error("Error while public event: {}", e.getMessage());
     }
 
-    try{
+    try {
       UserActivityWish userActivityWish
           = new UserActivityWish(EventSourceType.COMMENT.getValue()
           , String.valueOf(commentId)
           , String.valueOf(userId)
           , userActivityCommon);
       userActivityLogger.info(objectMapper.writeValueAsString(userActivityWish));
-    }
-    catch (Exception e){
+    } catch (Exception e) {
       log.error("Error while create user activity log: {}", e.getMessage());
     }
 
@@ -127,14 +130,15 @@ public class LikeService {
   public void likeCancelComment(Long userNo, Long commentNo) {
     // TODO: Validate userNo and commentNo
     log.info("Cancelling like for comment with commentNo: {} by userNo: {}", commentNo, userNo);
-    likeRepository.findByRefTblAndRefIdAndCreatedByAndDelYnIs("comment", commentNo, userNo, YesOrNo.N)
-            .ifPresentOrElse(like -> {
-              like.setDelYn(YesOrNo.Y);
-              likeRepository.save(like);
-            }, () -> {
-              log.error("Like not found for commentNo: {} by userNo: {}", commentNo, userNo);
-              throw new ServiceException(ServiceExceptionCode.LIKE_NOT_FOUND);
-            });
+    likeRepository.findByRefTblAndRefIdAndCreatedByAndDelYnIs("comment", commentNo, userNo,
+            YesOrNo.N)
+        .ifPresentOrElse(like -> {
+          like.setDelYn(YesOrNo.Y);
+          likeRepository.save(like);
+        }, () -> {
+          log.error("Like not found for commentNo: {} by userNo: {}", commentNo, userNo);
+          throw new ServiceException(ServiceExceptionCode.LIKE_NOT_FOUND);
+        });
   }
 
   public int countLikesForComment(Long commentNo) {

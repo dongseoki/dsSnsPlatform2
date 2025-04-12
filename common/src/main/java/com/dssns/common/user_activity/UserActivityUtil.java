@@ -5,9 +5,12 @@ import com.dssns.common.util.UUIDGenerator;
 import jakarta.servlet.http.HttpServletRequest;
 
 public class UserActivityUtil {
-  public static UserActivityCommon createUserActivityCommon(HttpServletRequest request, String eventType) {
+
+  public static UserActivityCommon createUserActivityCommon(HttpServletRequest request,
+      String eventType) {
     String eventId = UUIDGenerator.generateUUIDWithPrefix("event");
     String timestamp = TimeUtil.getKSTTimestamp();
+    // TODO 아래 주석처리한 부분은 추후 적절히 조치되도록 할 예정임.
 //    String userId = request.getParameter("userId");
 //    String userLoginId = request.getParameter("userLoginId");
 //    String jti = UUID.randomUUID().toString();

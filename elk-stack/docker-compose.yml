@@ -6,16 +6,16 @@ services:
       ES_JAVA_OPTS: "-Xmx256m -Xms256m"
       ELASTIC_PASSWORD: elastic
       discovery.type: single-node
-#      추후 아래 설정 수정 필요
+      #      추후 아래 설정 수정 필요
       xpack.security.enabled: false
     ports:
       - "9200:9200"
       - "9300:9300"
     volumes:
-#      - type: bind
-#        source: "./elasticsearch/config/elasticsearch.yml"
-#        target: /usr/share/elasticsearch/config/elasticsearch.yml
-#        read_only: true
+      #      - type: bind
+      #        source: "./elasticsearch/config/elasticsearch.yml"
+      #        target: /usr/share/elasticsearch/config/elasticsearch.yml
+      #        read_only: true
       - type: volume
         source: esdata
         target: /usr/share/elasticsearch/data
@@ -27,11 +27,11 @@ services:
     container_name: kibana
     ports:
       - "5601:5601"
-#    volumes:
-#      - type: bind
-#        source: "./kibana/config/kibana.yml"
-#        target: /usr/share/kibana/config/kibana.yml
-#        read_only: true
+    #    volumes:
+    #      - type: bind
+    #        source: "./kibana/config/kibana.yml"
+    #        target: /usr/share/kibana/config/kibana.yml
+    #        read_only: true
     networks:
       - elk
     depends_on:
@@ -43,10 +43,10 @@ services:
     environment:
       LS_JAVA_OPTS: "-Xmx256m -Xms256m"
     volumes:
-#      - type: bind
-#        source: "./logstash/config/logstash.yml"
-#        target: /usr/share/logstash/config/logstash.yml
-#        read_only: true
+      #      - type: bind
+      #        source: "./logstash/config/logstash.yml"
+      #        target: /usr/share/logstash/config/logstash.yml
+      #        read_only: true
       - type: bind
         source: "./logstash/pipeline"
         target: /usr/share/logstash/pipeline

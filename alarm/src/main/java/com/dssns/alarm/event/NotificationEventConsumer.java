@@ -13,6 +13,7 @@ import org.springframework.stereotype.Component;
 @Slf4j
 @RequiredArgsConstructor
 public class NotificationEventConsumer {
+
   private final NotificationRepository notificationRepository;
 
   // record 를 수신하기 위한 consumer 설정

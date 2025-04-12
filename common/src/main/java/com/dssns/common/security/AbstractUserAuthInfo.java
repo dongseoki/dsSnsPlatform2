@@ -4,7 +4,8 @@ import com.dssns.common.entity.Role;
 import java.util.Collection;
 
 public interface AbstractUserAuthInfo {
-	long getId();
 
-	Collection<Role> getAuthorities();
+  long getId();
+
+  Collection<Role> getAuthorities();
 }

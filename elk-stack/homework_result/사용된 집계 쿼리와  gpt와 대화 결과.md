@@ -70,8 +70,11 @@ GET logstash-user_wish-2025.04.09/_search
 ```
 
 # 대쉬보드를 만들기위한 gpt 대화 링크
+
 ## endpoint 별 API 호출 비율을 파이차트로 보여주기.
+
 * https://chatgpt.com/share/67f67391-6bb4-8011-96d3-b5b0c7f9e4b5
 
 ## 시간대별 좋아요 횟수 통계 라인 차트
+
 * https://chatgpt.com/share/67f67375-6004-8011-a928-eb1de7e31714

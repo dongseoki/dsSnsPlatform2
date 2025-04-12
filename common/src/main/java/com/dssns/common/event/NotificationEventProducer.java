@@ -12,6 +12,7 @@ import org.springframework.stereotype.Component;
 @Slf4j
 @RequiredArgsConstructor
 public class NotificationEventProducer {
+
   private final String ALARM_TOPIC_NAME = "notification-events";
   private final KafkaTemplate<String, NotificationEvent> kafkaTemplate;
 

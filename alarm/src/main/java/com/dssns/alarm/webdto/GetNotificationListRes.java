@@ -1,7 +1,6 @@
 package com.dssns.alarm.webdto;
 
 import com.dssns.alarm.entity.Notification;
-import com.fasterxml.jackson.annotation.JsonFormat;
 import java.time.Instant;
 import java.util.List;
 import lombok.AccessLevel;
@@ -13,6 +12,7 @@ import lombok.NoArgsConstructor;
 @Getter
 @AllArgsConstructor
 public class GetNotificationListRes {
+
   private List<GetNotificationItem> notifications;
   private Long totalCount;
 

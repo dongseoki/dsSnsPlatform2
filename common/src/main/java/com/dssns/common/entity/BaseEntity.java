@@ -20,37 +20,37 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 @MappedSuperclass
 public class BaseEntity extends BaseTimeEntity implements BaseCreatedByGetter {
 
-    @CreatedBy
-    @Column(updatable = false)
-    private Long createdBy;
+  @CreatedBy
+  @Column(updatable = false)
+  private Long createdBy;
 
-    @LastModifiedBy
-    private Long lastModifiedBy;
+  @LastModifiedBy
+  private Long lastModifiedBy;
 
-    @Column(name = "del_yn")
-    @ColumnDefault("'N'")
-    @Enumerated(EnumType.STRING)
-    private YesOrNo delYn;
+  @Column(name = "del_yn")
+  @ColumnDefault("'N'")
+  @Enumerated(EnumType.STRING)
+  private YesOrNo delYn;
 
-    @Override
-    public Long getCreatedBy() {
-        return createdBy;
-    }
+  @Override
+  public Long getCreatedBy() {
+    return createdBy;
+  }
 
-    public Long getLastModifiedBy() {
-        return lastModifiedBy;
-    }
+  public Long getLastModifiedBy() {
+    return lastModifiedBy;
+  }
 
-    public YesOrNo getDelYn() {
-        return delYn;
-    }
+  public YesOrNo getDelYn() {
+    return delYn;
+  }
 
-    public void setDelYn(YesOrNo delYn) {
-        this.delYn = delYn;
-    }
+  public void setDelYn(YesOrNo delYn) {
+    this.delYn = delYn;
+  }
 
-    public void setCreatedBy(Long createdBy) {
-        this.createdBy = createdBy;
-    }
+  public void setCreatedBy(Long createdBy) {
+    this.createdBy = createdBy;
+  }
 }
 

@@ -9,7 +9,6 @@ import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import lombok.AccessLevel;
-import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -26,30 +25,31 @@ import org.hibernate.annotations.DynamicUpdate;
 @SuperBuilder
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class PostTag extends BaseEntity {
-	@Id
-	@GeneratedValue(strategy = jakarta.persistence.GenerationType.IDENTITY)
-	@Column(name = "post_tag_no")
-	private Long id;
 
-	@ManyToOne(fetch = FetchType.LAZY)
-	@JoinColumn(name = "post_no")
-	private Post post;
+  @Id
+  @GeneratedValue(strategy = jakarta.persistence.GenerationType.IDENTITY)
+  @Column(name = "post_tag_no")
+  private Long id;
 
-	@ManyToOne(fetch = FetchType.LAZY)
-	@JoinColumn(name = "tag_no")
-	private Tag tag;
+  @ManyToOne(fetch = FetchType.LAZY)
+  @JoinColumn(name = "post_no")
+  private Post post;
 
-	@Builder
-	public PostTag(Long id, Post post, Tag tag) {
-		this.id = id;
-		this.post = post;
-		this.tag = tag;
-	}
+  @ManyToOne(fetch = FetchType.LAZY)
+  @JoinColumn(name = "tag_no")
+  private Tag tag;
 
-	public static PostTag of(Post post, Tag tag) {
-		return PostTag.builder()
-			.post(post)
-			.tag(tag)
-			.build();
-	}
+  @Builder
+  public PostTag(Long id, Post post, Tag tag) {
+    this.id = id;
+    this.post = post;
+    this.tag = tag;
+  }
+
+  public static PostTag of(Post post, Tag tag) {
+    return PostTag.builder()
+        .post(post)
+        .tag(tag)
+        .build();
+  }
 }

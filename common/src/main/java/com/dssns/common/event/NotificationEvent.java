@@ -2,15 +2,10 @@ package com.dssns.common.event;
 
 import com.dssns.common.event.enums.EventSourceType;
 import com.dssns.common.event.enums.EventType;
-import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
-import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import com.fasterxml.jackson.datatype.jsr310.deser.InstantDeserializer;
-import com.fasterxml.jackson.datatype.jsr310.ser.InstantSerializer;
-import lombok.AllArgsConstructor;
+import java.time.Instant;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import java.time.Instant;
 import lombok.ToString;
 
 @Builder
@@ -18,6 +13,7 @@ import lombok.ToString;
 @NoArgsConstructor
 @ToString
 public class NotificationEvent {
+
   private EventType eventType;      // LIKE, COMMENT
   private Long receiverUserId;      // 알림을 받을 사용자 ID
   private Long eventUserId;         // 이벤트를 발생시킨 사용자 ID
