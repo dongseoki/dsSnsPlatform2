@@ -96,3 +96,24 @@ springdoc:
 
 mybatis:
   mapper-locations: classpath:mapper/*.xml
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: prometheus,health,info,metrics  # metrics도 추가했어
+  endpoint:
+    health:
+      show-details: always
+    metrics:
+      enabled: true
+    prometheus:
+      enabled: true
+  metrics:
+    tags:
+      application: ${spring.application.name:board-api}
+  prometheus:
+    metrics:
+      export:
+        enabled: true

@@ -1,6 +1,8 @@
 ## swagger link
 
 * http://localhost:8201/swagger-ui/index.html
+* http://localhost:8201/actuator/prometheus
+
 
 ## 잔여 이슈
 
