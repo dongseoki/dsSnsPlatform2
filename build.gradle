@@ -63,6 +63,7 @@ subprojects {
         implementation 'org.flywaydb:flyway-core'
 
         // monitoring
+        implementation 'io.micrometer:micrometer-core'
         implementation 'io.micrometer:micrometer-registry-prometheus'
         implementation 'org.springframework.boot:spring-boot-starter-actuator'
 
@@ -75,13 +76,6 @@ subprojects {
 
     tasks.named('test') {
         useJUnitPlatform()
-    }
-
-    flyway {  // 3)
-        url = 'jdbc:mysql://localhost:3307/ds_sns?useSSL=false&serverTimezone=UTC&characterEncoding=utf8'
-        user = 'root'
-        password = 'root'
-        driver = 'com.mysql.jdbc.Driver'
     }
 }
 

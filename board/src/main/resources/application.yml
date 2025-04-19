@@ -113,6 +113,8 @@ management:
   metrics:
     tags:
       application: ${spring.application.name:board-api}
+    enable:
+      all: true
   prometheus:
     metrics:
       export:
