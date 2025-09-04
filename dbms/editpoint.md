@@ -7,3 +7,5 @@
 7. 참고 : UI상으로 보일 BASIC, PRO, FAMILY 각각 정책은 DB로 관리안함.- > 변경. 상품으로 관리.
 8. 결제 관련 : 회사 프로젝트에서 작업했던 table로 진행.(tb_goods(이건 선택으로 보임.), tb_orders, tb_orders_goods, tb_orders, tb_orders_payment)
 9. user : user에 current_plan 정보를 추가.
+10. habit: start_date(습관 시작일)추가, unit 제거, times 제거, repeatsType(day, week, month, year), repeatEveryValue(1~100 가능. ex)매주 3회 일경우 3), repeatDetailInfo(varchar, repeat과 관련된 jsonString정보. 정형화 불가능. 고도화시 사용), tags(tag컴마연결문자열 ex)stretch,important) 추가.
+11. habit_log : 수정할거 없음.
