@@ -106,6 +106,7 @@ public class PostController {
   public ApiResponse<Void> deleteComment(@PathVariable("commentNo") Long commentNo) {
     log.info(">>> PostController.deleteComment");
     postService.deleteComment(commentNo);
+    log.info("my test");
     return ApiResponse.Success();
   }
 
