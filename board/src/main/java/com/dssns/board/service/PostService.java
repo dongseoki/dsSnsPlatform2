@@ -24,7 +24,6 @@ import jakarta.validation.Valid;
 import java.time.Instant;
 import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collectors;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
@@ -38,6 +37,7 @@ public class PostService {
   private final NotificationEventProducer notificationEventProducer;
   private final PostRepository postRepository;
   private final CommentRepository commentRepository;
+  private static final String POST_ERROR_MESSAGE = "Post with id {} not found";
 
   @Transactional
   public AddPostResponseDto addPost(Post post) {
@@ -62,7 +62,7 @@ public class PostService {
       // Add other fields as necessary
       postRepository.save(post);
     } else {
-      log.error("Post with id {} not found", postNo);
+      log.error(POST_ERROR_MESSAGE, postNo);
       throw new ServiceException(ServiceExceptionCode.POST_NOT_FOUND);
     }
   }
@@ -75,7 +75,7 @@ public class PostService {
       post.setDelYn(YesOrNo.Y); // Assuming there is a 'deleted' field in the Post entity
       postRepository.save(post);
     } else {
-      log.error("Post with id {} not found", postNo);
+      log.error(POST_ERROR_MESSAGE, postNo);
       throw new ServiceException(ServiceExceptionCode.POST_NOT_FOUND);
     }
   }
@@ -91,7 +91,7 @@ public class PostService {
           .createdDate(post.getCreatedDate())
           .build();
     } else {
-      log.error("Post with id {} not found", postNo);
+      log.error(POST_ERROR_MESSAGE, postNo);
       throw new ServiceException(ServiceExceptionCode.POST_NOT_FOUND);
     }
   }
@@ -122,7 +122,7 @@ public class PostService {
       notificationEventProducer.publishNotificationEventCreated(notificationEvent);
       return new AddCommentResponseDto(savedComment.getId());
     } else {
-      log.error("Post with id {} not found", postNo);
+      log.error(POST_ERROR_MESSAGE, postNo);
       throw new ServiceException(ServiceExceptionCode.POST_NOT_FOUND);
     }
   }
@@ -140,10 +140,10 @@ public class PostService {
               .lastModifiedDate(comment.getLastModifiedDate())
               .createdBy(comment.getCreatedBy())
               .build())
-          .collect(Collectors.toList());
+          .toList();
       return new GetPostCommentsResponseDto(commentResponseDtos, (long) commentResponseDtos.size());
     } else {
-      log.error("Post with id {} not found", postNo);
+      log.error(POST_ERROR_MESSAGE, postNo);
       throw new ServiceException(ServiceExceptionCode.POST_NOT_FOUND);
     }
   }
@@ -163,7 +163,7 @@ public class PostService {
     }
   }
 
-  public void deleteComment(Long postNo, Long commentNo) {
+  public void deleteComment(Long commentNo) {
     Optional<Comment> optionalComment = commentRepository.findByIdAndDelYnIs(commentNo, YesOrNo.N);
     if (optionalComment.isPresent()) {
       Comment comment = optionalComment.get();

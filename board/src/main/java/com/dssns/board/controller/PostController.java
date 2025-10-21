@@ -102,11 +102,10 @@ public class PostController {
   }
 
   @Operation(summary = "[o]게시글 댓글 삭제", description = "게시글 댓글 삭제 API")
-  @DeleteMapping("/{postNo}/comments/{commentNo}")
-  public ApiResponse<Void> deleteComment(@PathVariable("postNo") Long postNo,
-      @PathVariable("commentNo") Long commentNo) {
+  @DeleteMapping("/comments/{commentNo}")
+  public ApiResponse<Void> deleteComment(@PathVariable("commentNo") Long commentNo) {
     log.info(">>> PostController.deleteComment");
-    postService.deleteComment(postNo, commentNo);
+    postService.deleteComment(commentNo);
     return ApiResponse.Success();
   }
 
