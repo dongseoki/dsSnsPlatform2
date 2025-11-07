@@ -1,4 +1,4 @@
-package com.dssns.board.ordertemp.entity;
+package com.dssns.board.habit.entity;
 
 import com.dssns.common.entity.BaseEntity;
 import jakarta.persistence.Column;
@@ -8,10 +8,9 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
-import java.math.BigDecimal;
+import java.time.LocalDate;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -27,27 +26,26 @@ import org.hibernate.annotations.DynamicUpdate;
 @SuperBuilder
 @AllArgsConstructor
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
-public class OrderGoods extends BaseEntity {
+public class HabitLog extends BaseEntity {
 
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
 
   @ManyToOne
-  @JoinColumn(name = "order_id", nullable = false)
-  private Order order;
+  @JoinColumn(name = "habit_id", nullable = false)
+  private Habit habit;
 
-  @ManyToOne
-  @JoinColumn(name = "goods_id", nullable = false)
-  private Goods goods;
+  @Column(name = "user_id", nullable = false)
+  private Long userId;
+
+  @Column(name = "log_date", nullable = false)
+  private LocalDate logDate;
 
   @Column(nullable = false)
-  @Builder.Default
-  private Integer quantity = 1;
+  private Integer value;
 
-  @Column(name = "unit_price", nullable = false, precision = 10, scale = 2)
-  private BigDecimal unitPrice;
-
-  @Column(name = "total_price", nullable = false, precision = 10, scale = 2)
-  private BigDecimal totalPrice;
+  @Column(length = 500)
+  private String note;
 }
+

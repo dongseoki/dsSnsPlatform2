@@ -408,3 +408,765 @@ Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL synta
 [2025-11-07 22:01:56:11109][RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 [2025-11-07 22:01:56:11111][RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
 [2025-11-07 22:01:56:11114][RMI TCP Connection(4)-127.0.0.1] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+[2025-11-07 22:14:10:745024][File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 50 class path changes (0 additions, 50 deletions, 0 modifications)
+[2025-11-07 22:14:10:745124][Thread-6] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8201"]
+[2025-11-07 22:14:10:745236][Thread-6] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2025-11-07 22:14:10:745273][Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[2025-11-07 22:14:10:745767][Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[2025-11-07 22:14:11:746665][restartedMain] INFO  com.dssns.board.BoardApplication - Starting BoardApplication using Java 17.0.13 with PID 54361 (/Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2/board/build/classes/java/main started by dongseoklee in /Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2)
+[2025-11-07 22:14:11:746665][restartedMain] INFO  com.dssns.board.BoardApplication - Starting BoardApplication using Java 17.0.13 with PID 54361 (/Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2/board/build/classes/java/main started by dongseoklee in /Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2)
+[2025-11-07 22:14:11:746666][restartedMain] DEBUG com.dssns.board.BoardApplication - Running with Spring Boot v3.3.7, Spring v6.1.16
+[2025-11-07 22:14:11:746666][restartedMain] DEBUG com.dssns.board.BoardApplication - Running with Spring Boot v3.3.7, Spring v6.1.16
+[2025-11-07 22:14:11:746666][restartedMain] INFO  com.dssns.board.BoardApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-11-07 22:14:11:746666][restartedMain] INFO  com.dssns.board.BoardApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-11-07 22:14:21:756303][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2025-11-07 22:14:21:756428][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 87 ms. Found 0 JPA repository interfaces.
+[2025-11-07 22:14:23:758416][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8201 (http)
+[2025-11-07 22:14:23:758417][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8201"]
+[2025-11-07 22:14:23:758424][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2025-11-07 22:14:23:758431][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+[2025-11-07 22:14:23:758520][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2025-11-07 22:14:23:758520][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 11840 ms
+[2025-11-07 22:14:24:759277][restartedMain] DEBUG c.dssns.common.config.WebConfig$1 - Filter 'requestTimingFilter' configured for use
+[2025-11-07 22:14:24:759277][restartedMain] DEBUG c.dssns.common.config.WebConfig$1 - Filter 'requestTimingFilter' configured for use
+[2025-11-07 22:14:25:760012][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+[2025-11-07 22:14:25:760594][restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4d439127
+[2025-11-07 22:14:25:760595][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+[2025-11-07 22:14:25:760799][restartedMain] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3307/ds_sns (MySQL 8.0)
+[2025-11-07 22:14:25:760999][restartedMain] INFO  o.f.c.internal.command.DbValidate - Successfully validated 2 migrations (execution time 00:00.073s)
+[2025-11-07 22:14:26:761418][restartedMain] INFO  o.f.core.internal.command.DbMigrate - Current version of schema `ds_sns`: 2
+[2025-11-07 22:14:26:761447][restartedMain] INFO  o.f.core.internal.command.DbMigrate - Schema `ds_sns` is up to date. No migration necessary.
+[2025-11-07 22:14:27:762285][restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2025-11-07 22:14:27:762300][restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[2025-11-07 22:14:27:762374][restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2025-11-07 22:14:27:762446][restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2025-11-07 22:14:27:762729][restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2025-11-07 22:14:27:762730][restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2025-11-07 22:14:31:766637][restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2025-11-07 22:14:31:766973][restartedMain] INFO  com.dssns.common.config.WebConfig - addInterceptors start
+[2025-11-07 22:14:31:766973][restartedMain] INFO  com.dssns.common.config.WebConfig - addInterceptors start
+[2025-11-07 22:14:39:774269][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2025-11-07 22:14:39:774309][restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 4 endpoints beneath base path '/actuator'
+[2025-11-07 22:14:39:774677][restartedMain] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.controllers = []
+	bootstrap.servers = [localhost:29092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = board-admin-1
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	enable.metrics.push = true
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+[2025-11-07 22:14:39:774747][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka version: 3.9.0
+[2025-11-07 22:14:39:774748][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId: 84caaa6e9da06435
+[2025-11-07 22:14:39:774748][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka startTimeMs: 1762521279740
+[2025-11-07 22:14:40:775210][kafka-admin-client-thread | board-admin-1] INFO  o.a.k.common.utils.AppInfoParser - App info kafka.admin.client for board-admin-1 unregistered
+[2025-11-07 22:14:40:775214][kafka-admin-client-thread | board-admin-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+[2025-11-07 22:14:40:775214][kafka-admin-client-thread | board-admin-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+[2025-11-07 22:14:40:775214][kafka-admin-client-thread | board-admin-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+[2025-11-07 22:14:40:775340][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8201"]
+[2025-11-07 22:14:40:775397][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8201 (http) with context path '/'
+[2025-11-07 22:14:40:775451][restartedMain] INFO  com.dssns.board.BoardApplication - Started BoardApplication in 28.988 seconds (process running for 777.471)
+[2025-11-07 22:14:40:775451][restartedMain] INFO  com.dssns.board.BoardApplication - Started BoardApplication in 28.988 seconds (process running for 777.471)
+[2025-11-07 22:14:40:775475][restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[2025-11-07 22:14:40:775796][File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 60 class path changes (60 additions, 0 deletions, 0 modifications)
+[2025-11-07 22:14:40:775835][Thread-8] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8201"]
+[2025-11-07 22:14:40:775974][Thread-8] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2025-11-07 22:14:40:775996][Thread-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+[2025-11-07 22:14:41:776168][Thread-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+[2025-11-07 22:14:42:777218][restartedMain] INFO  com.dssns.board.BoardApplication - Starting BoardApplication using Java 17.0.13 with PID 54361 (/Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2/board/build/classes/java/main started by dongseoklee in /Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2)
+[2025-11-07 22:14:42:777218][restartedMain] INFO  com.dssns.board.BoardApplication - Starting BoardApplication using Java 17.0.13 with PID 54361 (/Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2/board/build/classes/java/main started by dongseoklee in /Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2)
+[2025-11-07 22:14:42:777219][restartedMain] DEBUG com.dssns.board.BoardApplication - Running with Spring Boot v3.3.7, Spring v6.1.16
+[2025-11-07 22:14:42:777219][restartedMain] DEBUG com.dssns.board.BoardApplication - Running with Spring Boot v3.3.7, Spring v6.1.16
+[2025-11-07 22:14:42:777219][restartedMain] INFO  com.dssns.board.BoardApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-11-07 22:14:42:777219][restartedMain] INFO  com.dssns.board.BoardApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-11-07 22:14:45:780684][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2025-11-07 22:14:46:781128][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 434 ms. Found 2 JPA repository interfaces.
+[2025-11-07 22:14:47:782415][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8201 (http)
+[2025-11-07 22:14:47:782419][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8201"]
+[2025-11-07 22:14:47:782420][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2025-11-07 22:14:47:782420][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+[2025-11-07 22:14:47:782588][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2025-11-07 22:14:47:782592][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5357 ms
+[2025-11-07 22:14:48:783771][restartedMain] DEBUG c.dssns.common.config.WebConfig$1 - Filter 'requestTimingFilter' configured for use
+[2025-11-07 22:14:48:783771][restartedMain] DEBUG c.dssns.common.config.WebConfig$1 - Filter 'requestTimingFilter' configured for use
+[2025-11-07 22:14:49:784043][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+[2025-11-07 22:14:49:784293][restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1b6849f9
+[2025-11-07 22:14:49:784298][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+[2025-11-07 22:14:49:784393][restartedMain] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3307/ds_sns (MySQL 8.0)
+[2025-11-07 22:14:49:784551][restartedMain] INFO  o.f.c.internal.command.DbValidate - Successfully validated 2 migrations (execution time 00:00.053s)
+[2025-11-07 22:14:49:784615][restartedMain] INFO  o.f.core.internal.command.DbMigrate - Current version of schema `ds_sns`: 2
+[2025-11-07 22:14:49:784619][restartedMain] INFO  o.f.core.internal.command.DbMigrate - Schema `ds_sns` is up to date. No migration necessary.
+[2025-11-07 22:14:49:784903][restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2025-11-07 22:14:49:784911][restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[2025-11-07 22:14:50:785033][restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2025-11-07 22:14:50:785045][restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2025-11-07 22:14:51:786459][restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2025-11-07 22:14:51:786459][restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2025-11-07 22:14:52:787073][restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2025-11-07 22:14:52:787149][restartedMain] INFO  com.dssns.common.config.WebConfig - addInterceptors start
+[2025-11-07 22:14:52:787149][restartedMain] INFO  com.dssns.common.config.WebConfig - addInterceptors start
+[2025-11-07 22:14:53:788549][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2025-11-07 22:14:53:788559][restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 4 endpoints beneath base path '/actuator'
+[2025-11-07 22:14:53:788587][restartedMain] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.controllers = []
+	bootstrap.servers = [localhost:29092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = board-admin-2
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	enable.metrics.push = true
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+[2025-11-07 22:14:53:788589][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka version: 3.9.0
+[2025-11-07 22:14:53:788589][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId: 84caaa6e9da06435
+[2025-11-07 22:14:53:788589][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka startTimeMs: 1762521293582
+[2025-11-07 22:14:53:788602][kafka-admin-client-thread | board-admin-2] INFO  o.a.k.common.utils.AppInfoParser - App info kafka.admin.client for board-admin-2 unregistered
+[2025-11-07 22:14:53:788603][kafka-admin-client-thread | board-admin-2] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+[2025-11-07 22:14:53:788603][kafka-admin-client-thread | board-admin-2] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+[2025-11-07 22:14:53:788603][kafka-admin-client-thread | board-admin-2] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+[2025-11-07 22:14:53:788613][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8201"]
+[2025-11-07 22:14:53:788614][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8201 (http) with context path '/'
+[2025-11-07 22:14:53:788626][restartedMain] INFO  com.dssns.board.BoardApplication - Started BoardApplication in 11.58 seconds (process running for 790.646)
+[2025-11-07 22:14:53:788626][restartedMain] INFO  com.dssns.board.BoardApplication - Started BoardApplication in 11.58 seconds (process running for 790.646)
+[2025-11-07 22:14:53:788628][restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[2025-11-07 22:16:57:912947][File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 58 class path changes (0 additions, 58 deletions, 0 modifications)
+[2025-11-07 22:16:57:912977][Thread-13] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8201"]
+[2025-11-07 22:16:57:912994][Thread-13] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2025-11-07 22:16:58:913010][Thread-13] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+[2025-11-07 22:16:58:913219][Thread-13] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+[2025-11-07 22:16:58:913682][restartedMain] INFO  com.dssns.board.BoardApplication - Starting BoardApplication using Java 17.0.13 with PID 54361 (/Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2/board/build/classes/java/main started by dongseoklee in /Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2)
+[2025-11-07 22:16:58:913682][restartedMain] INFO  com.dssns.board.BoardApplication - Starting BoardApplication using Java 17.0.13 with PID 54361 (/Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2/board/build/classes/java/main started by dongseoklee in /Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2)
+[2025-11-07 22:16:58:913682][restartedMain] DEBUG com.dssns.board.BoardApplication - Running with Spring Boot v3.3.7, Spring v6.1.16
+[2025-11-07 22:16:58:913682][restartedMain] DEBUG com.dssns.board.BoardApplication - Running with Spring Boot v3.3.7, Spring v6.1.16
+[2025-11-07 22:16:58:913682][restartedMain] INFO  com.dssns.board.BoardApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-11-07 22:16:58:913682][restartedMain] INFO  com.dssns.board.BoardApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-11-07 22:16:59:914682][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2025-11-07 22:16:59:914701][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
+[2025-11-07 22:17:00:915284][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8201 (http)
+[2025-11-07 22:17:00:915285][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8201"]
+[2025-11-07 22:17:00:915285][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2025-11-07 22:17:00:915285][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+[2025-11-07 22:17:00:915321][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2025-11-07 22:17:00:915321][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1636 ms
+[2025-11-07 22:17:00:915526][restartedMain] DEBUG c.dssns.common.config.WebConfig$1 - Filter 'requestTimingFilter' configured for use
+[2025-11-07 22:17:00:915526][restartedMain] DEBUG c.dssns.common.config.WebConfig$1 - Filter 'requestTimingFilter' configured for use
+[2025-11-07 22:17:00:915625][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+[2025-11-07 22:17:00:915662][restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@47877a05
+[2025-11-07 22:17:00:915663][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+[2025-11-07 22:17:00:915695][restartedMain] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3307/ds_sns (MySQL 8.0)
+[2025-11-07 22:17:00:915978][restartedMain] INFO  o.f.c.internal.command.DbValidate - Successfully validated 2 migrations (execution time 00:00.033s)
+[2025-11-07 22:17:01:916020][restartedMain] INFO  o.f.core.internal.command.DbMigrate - Current version of schema `ds_sns`: 2
+[2025-11-07 22:17:01:916023][restartedMain] INFO  o.f.core.internal.command.DbMigrate - Schema `ds_sns` is up to date. No migration necessary.
+[2025-11-07 22:17:01:916166][restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2025-11-07 22:17:01:916175][restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[2025-11-07 22:17:01:916233][restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2025-11-07 22:17:01:916255][restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2025-11-07 22:17:01:916989][restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2025-11-07 22:17:01:916994][restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2025-11-07 22:17:02:917318][restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2025-11-07 22:17:02:917514][restartedMain] INFO  com.dssns.common.config.WebConfig - addInterceptors start
+[2025-11-07 22:17:02:917514][restartedMain] INFO  com.dssns.common.config.WebConfig - addInterceptors start
+[2025-11-07 22:17:04:919252][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2025-11-07 22:17:04:919275][restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 4 endpoints beneath base path '/actuator'
+[2025-11-07 22:17:04:919347][restartedMain] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.controllers = []
+	bootstrap.servers = [localhost:29092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = board-admin-3
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	enable.metrics.push = true
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+[2025-11-07 22:17:04:919360][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka version: 3.9.0
+[2025-11-07 22:17:04:919360][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId: 84caaa6e9da06435
+[2025-11-07 22:17:04:919360][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka startTimeMs: 1762521424353
+[2025-11-07 22:17:04:919410][kafka-admin-client-thread | board-admin-3] INFO  o.a.k.common.utils.AppInfoParser - App info kafka.admin.client for board-admin-3 unregistered
+[2025-11-07 22:17:04:919413][kafka-admin-client-thread | board-admin-3] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+[2025-11-07 22:17:04:919413][kafka-admin-client-thread | board-admin-3] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+[2025-11-07 22:17:04:919413][kafka-admin-client-thread | board-admin-3] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+[2025-11-07 22:17:04:919444][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8201"]
+[2025-11-07 22:17:04:919450][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8201 (http) with context path '/'
+[2025-11-07 22:17:04:919477][restartedMain] INFO  com.dssns.board.BoardApplication - Started BoardApplication in 5.875 seconds (process running for 921.5)
+[2025-11-07 22:17:04:919477][restartedMain] INFO  com.dssns.board.BoardApplication - Started BoardApplication in 5.875 seconds (process running for 921.5)
+[2025-11-07 22:17:04:919487][restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[2025-11-07 22:17:05:920702][File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 58 class path changes (58 additions, 0 deletions, 0 modifications)
+[2025-11-07 22:17:05:920726][Thread-18] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8201"]
+[2025-11-07 22:17:05:920738][Thread-18] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2025-11-07 22:17:05:920742][Thread-18] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+[2025-11-07 22:17:05:920797][Thread-18] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+[2025-11-07 22:17:06:921211][restartedMain] INFO  com.dssns.board.BoardApplication - Starting BoardApplication using Java 17.0.13 with PID 54361 (/Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2/board/build/classes/java/main started by dongseoklee in /Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2)
+[2025-11-07 22:17:06:921211][restartedMain] INFO  com.dssns.board.BoardApplication - Starting BoardApplication using Java 17.0.13 with PID 54361 (/Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2/board/build/classes/java/main started by dongseoklee in /Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2)
+[2025-11-07 22:17:06:921211][restartedMain] DEBUG com.dssns.board.BoardApplication - Running with Spring Boot v3.3.7, Spring v6.1.16
+[2025-11-07 22:17:06:921211][restartedMain] DEBUG com.dssns.board.BoardApplication - Running with Spring Boot v3.3.7, Spring v6.1.16
+[2025-11-07 22:17:06:921212][restartedMain] INFO  com.dssns.board.BoardApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-11-07 22:17:06:921212][restartedMain] INFO  com.dssns.board.BoardApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-11-07 22:17:07:922075][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2025-11-07 22:17:07:922114][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 2 JPA repository interfaces.
+[2025-11-07 22:17:08:923186][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8201 (http)
+[2025-11-07 22:17:08:923187][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8201"]
+[2025-11-07 22:17:08:923188][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2025-11-07 22:17:08:923194][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+[2025-11-07 22:17:08:923229][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2025-11-07 22:17:08:923229][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2014 ms
+[2025-11-07 22:17:08:923628][restartedMain] DEBUG c.dssns.common.config.WebConfig$1 - Filter 'requestTimingFilter' configured for use
+[2025-11-07 22:17:08:923628][restartedMain] DEBUG c.dssns.common.config.WebConfig$1 - Filter 'requestTimingFilter' configured for use
+[2025-11-07 22:17:08:923727][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+[2025-11-07 22:17:08:924004][restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e6ce59d
+[2025-11-07 22:17:09:924012][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+[2025-11-07 22:17:09:924107][restartedMain] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3307/ds_sns (MySQL 8.0)
+[2025-11-07 22:17:09:924263][restartedMain] INFO  o.f.c.internal.command.DbValidate - Successfully validated 2 migrations (execution time 00:00.058s)
+[2025-11-07 22:17:09:924328][restartedMain] INFO  o.f.core.internal.command.DbMigrate - Current version of schema `ds_sns`: 2
+[2025-11-07 22:17:09:924335][restartedMain] INFO  o.f.core.internal.command.DbMigrate - Schema `ds_sns` is up to date. No migration necessary.
+[2025-11-07 22:17:09:924497][restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2025-11-07 22:17:09:924528][restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[2025-11-07 22:17:09:924557][restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2025-11-07 22:17:09:924564][restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2025-11-07 22:17:10:925148][restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2025-11-07 22:17:10:925148][restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2025-11-07 22:17:10:925683][restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2025-11-07 22:17:10:925755][restartedMain] INFO  com.dssns.common.config.WebConfig - addInterceptors start
+[2025-11-07 22:17:10:925755][restartedMain] INFO  com.dssns.common.config.WebConfig - addInterceptors start
+[2025-11-07 22:17:12:927340][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2025-11-07 22:17:12:927355][restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 4 endpoints beneath base path '/actuator'
+[2025-11-07 22:17:12:927431][restartedMain] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.controllers = []
+	bootstrap.servers = [localhost:29092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = board-admin-4
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	enable.metrics.push = true
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+[2025-11-07 22:17:12:927438][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka version: 3.9.0
+[2025-11-07 22:17:12:927438][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId: 84caaa6e9da06435
+[2025-11-07 22:17:12:927438][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka startTimeMs: 1762521432431
+[2025-11-07 22:17:12:927484][kafka-admin-client-thread | board-admin-4] INFO  o.a.k.common.utils.AppInfoParser - App info kafka.admin.client for board-admin-4 unregistered
+[2025-11-07 22:17:12:927487][kafka-admin-client-thread | board-admin-4] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+[2025-11-07 22:17:12:927487][kafka-admin-client-thread | board-admin-4] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+[2025-11-07 22:17:12:927487][kafka-admin-client-thread | board-admin-4] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+[2025-11-07 22:17:12:927521][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8201"]
+[2025-11-07 22:17:12:927524][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8201 (http) with context path '/'
+[2025-11-07 22:17:12:927546][restartedMain] INFO  com.dssns.board.BoardApplication - Started BoardApplication in 6.423 seconds (process running for 929.57)
+[2025-11-07 22:17:12:927546][restartedMain] INFO  com.dssns.board.BoardApplication - Started BoardApplication in 6.423 seconds (process running for 929.57)
+[2025-11-07 22:17:12:927552][restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[2025-11-07 22:18:23:998382][File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 5 class path changes (0 additions, 5 deletions, 0 modifications)
+[2025-11-07 22:18:23:998554][Thread-23] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8201"]
+[2025-11-07 22:18:23:998767][Thread-23] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2025-11-07 22:18:23:998822][Thread-23] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+[2025-11-07 22:18:23:998999][Thread-23] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+[2025-11-07 22:18:25:1000102][restartedMain] INFO  com.dssns.board.BoardApplication - Starting BoardApplication using Java 17.0.13 with PID 54361 (/Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2/board/build/classes/java/main started by dongseoklee in /Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2)
+[2025-11-07 22:18:25:1000102][restartedMain] INFO  com.dssns.board.BoardApplication - Starting BoardApplication using Java 17.0.13 with PID 54361 (/Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2/board/build/classes/java/main started by dongseoklee in /Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2)
+[2025-11-07 22:18:25:1000102][restartedMain] DEBUG com.dssns.board.BoardApplication - Running with Spring Boot v3.3.7, Spring v6.1.16
+[2025-11-07 22:18:25:1000102][restartedMain] DEBUG com.dssns.board.BoardApplication - Running with Spring Boot v3.3.7, Spring v6.1.16
+[2025-11-07 22:18:25:1000102][restartedMain] INFO  com.dssns.board.BoardApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-11-07 22:18:25:1000102][restartedMain] INFO  com.dssns.board.BoardApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-11-07 22:18:29:1004963][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2025-11-07 22:18:31:1006132][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1168 ms. Found 2 JPA repository interfaces.
+[2025-11-07 22:18:31:1006657][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8201 (http)
+[2025-11-07 22:18:31:1006658][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8201"]
+[2025-11-07 22:18:31:1006658][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2025-11-07 22:18:31:1006658][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+[2025-11-07 22:18:31:1006680][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2025-11-07 22:18:31:1006680][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6575 ms
+[2025-11-07 22:18:31:1006813][restartedMain] DEBUG c.dssns.common.config.WebConfig$1 - Filter 'requestTimingFilter' configured for use
+[2025-11-07 22:18:31:1006813][restartedMain] DEBUG c.dssns.common.config.WebConfig$1 - Filter 'requestTimingFilter' configured for use
+[2025-11-07 22:18:31:1006870][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
+[2025-11-07 22:18:31:1006892][restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@59cc1dc5
+[2025-11-07 22:18:31:1006892][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
+[2025-11-07 22:18:31:1006911][restartedMain] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3307/ds_sns (MySQL 8.0)
+[2025-11-07 22:18:31:1006929][restartedMain] INFO  o.f.c.internal.command.DbValidate - Successfully validated 2 migrations (execution time 00:00.008s)
+[2025-11-07 22:18:31:1006939][restartedMain] INFO  o.f.core.internal.command.DbMigrate - Current version of schema `ds_sns`: 2
+[2025-11-07 22:18:31:1006939][restartedMain] INFO  o.f.core.internal.command.DbMigrate - Schema `ds_sns` is up to date. No migration necessary.
+[2025-11-07 22:18:31:1006973][restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2025-11-07 22:18:31:1006975][restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[2025-11-07 22:18:31:1006981][restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2025-11-07 22:18:31:1006983][restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2025-11-07 22:18:32:1007180][restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2025-11-07 22:18:32:1007180][restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2025-11-07 22:18:32:1007373][restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2025-11-07 22:18:32:1007406][restartedMain] INFO  com.dssns.common.config.WebConfig - addInterceptors start
+[2025-11-07 22:18:32:1007406][restartedMain] INFO  com.dssns.common.config.WebConfig - addInterceptors start
+[2025-11-07 22:18:35:1010708][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2025-11-07 22:18:35:1010730][restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 4 endpoints beneath base path '/actuator'
+[2025-11-07 22:18:35:1010956][restartedMain] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.controllers = []
+	bootstrap.servers = [localhost:29092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = board-admin-5
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	enable.metrics.push = true
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+[2025-11-07 22:18:35:1010992][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka version: 3.9.0
+[2025-11-07 22:18:35:1010992][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId: 84caaa6e9da06435
+[2025-11-07 22:18:35:1010992][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka startTimeMs: 1762521515985
+[2025-11-07 22:18:36:1011198][kafka-admin-client-thread | board-admin-5] INFO  o.a.k.common.utils.AppInfoParser - App info kafka.admin.client for board-admin-5 unregistered
+[2025-11-07 22:18:36:1011201][kafka-admin-client-thread | board-admin-5] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+[2025-11-07 22:18:36:1011201][kafka-admin-client-thread | board-admin-5] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+[2025-11-07 22:18:36:1011201][kafka-admin-client-thread | board-admin-5] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+[2025-11-07 22:18:36:1011246][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8201"]
+[2025-11-07 22:18:36:1011262][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8201 (http) with context path '/'
+[2025-11-07 22:18:36:1011307][restartedMain] INFO  com.dssns.board.BoardApplication - Started BoardApplication in 11.336 seconds (process running for 1013.332)
+[2025-11-07 22:18:36:1011307][restartedMain] INFO  com.dssns.board.BoardApplication - Started BoardApplication in 11.336 seconds (process running for 1013.332)
+[2025-11-07 22:18:36:1011319][restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[2025-11-07 22:18:37:1012144][File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 5 class path changes (5 additions, 0 deletions, 0 modifications)
+[2025-11-07 22:18:37:1012153][Thread-28] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8201"]
+[2025-11-07 22:18:37:1012172][Thread-28] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2025-11-07 22:18:37:1012211][Thread-28] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown initiated...
+[2025-11-07 22:18:37:1012272][Thread-28] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown completed.
+[2025-11-07 22:18:37:1012799][restartedMain] INFO  com.dssns.board.BoardApplication - Starting BoardApplication using Java 17.0.13 with PID 54361 (/Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2/board/build/classes/java/main started by dongseoklee in /Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2)
+[2025-11-07 22:18:37:1012799][restartedMain] INFO  com.dssns.board.BoardApplication - Starting BoardApplication using Java 17.0.13 with PID 54361 (/Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2/board/build/classes/java/main started by dongseoklee in /Users/dongseoklee/github/Classification/my_projects/dsSnsPlatform2)
+[2025-11-07 22:18:37:1012799][restartedMain] DEBUG com.dssns.board.BoardApplication - Running with Spring Boot v3.3.7, Spring v6.1.16
+[2025-11-07 22:18:37:1012799][restartedMain] DEBUG com.dssns.board.BoardApplication - Running with Spring Boot v3.3.7, Spring v6.1.16
+[2025-11-07 22:18:37:1012799][restartedMain] INFO  com.dssns.board.BoardApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-11-07 22:18:37:1012799][restartedMain] INFO  com.dssns.board.BoardApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-11-07 22:18:39:1014067][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2025-11-07 22:18:39:1014096][restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28 ms. Found 2 JPA repository interfaces.
+[2025-11-07 22:18:39:1014274][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8201 (http)
+[2025-11-07 22:18:39:1014274][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8201"]
+[2025-11-07 22:18:39:1014274][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2025-11-07 22:18:39:1014274][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+[2025-11-07 22:18:39:1014284][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2025-11-07 22:18:39:1014285][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1484 ms
+[2025-11-07 22:18:39:1014394][restartedMain] DEBUG c.dssns.common.config.WebConfig$1 - Filter 'requestTimingFilter' configured for use
+[2025-11-07 22:18:39:1014394][restartedMain] DEBUG c.dssns.common.config.WebConfig$1 - Filter 'requestTimingFilter' configured for use
+[2025-11-07 22:18:39:1014439][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Starting...
+[2025-11-07 22:18:39:1014461][restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@183445c8
+[2025-11-07 22:18:39:1014462][restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Start completed.
+[2025-11-07 22:18:39:1014472][restartedMain] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3307/ds_sns (MySQL 8.0)
+[2025-11-07 22:18:39:1014492][restartedMain] INFO  o.f.c.internal.command.DbValidate - Successfully validated 2 migrations (execution time 00:00.010s)
+[2025-11-07 22:18:39:1014515][restartedMain] INFO  o.f.core.internal.command.DbMigrate - Current version of schema `ds_sns`: 2
+[2025-11-07 22:18:39:1014516][restartedMain] INFO  o.f.core.internal.command.DbMigrate - Schema `ds_sns` is up to date. No migration necessary.
+[2025-11-07 22:18:39:1014549][restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2025-11-07 22:18:39:1014551][restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[2025-11-07 22:18:39:1014558][restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2025-11-07 22:18:39:1014560][restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2025-11-07 22:18:39:1014812][restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2025-11-07 22:18:39:1014813][restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2025-11-07 22:18:40:1015307][restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2025-11-07 22:18:40:1015337][restartedMain] INFO  com.dssns.common.config.WebConfig - addInterceptors start
+[2025-11-07 22:18:40:1015337][restartedMain] INFO  com.dssns.common.config.WebConfig - addInterceptors start
+[2025-11-07 22:18:41:1016361][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2025-11-07 22:18:41:1016374][restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 4 endpoints beneath base path '/actuator'
+[2025-11-07 22:18:41:1016435][restartedMain] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.controllers = []
+	bootstrap.servers = [localhost:29092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = board-admin-6
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	enable.metrics.push = true
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+[2025-11-07 22:18:41:1016437][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka version: 3.9.0
+[2025-11-07 22:18:41:1016437][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka commitId: 84caaa6e9da06435
+[2025-11-07 22:18:41:1016437][restartedMain] INFO  o.a.k.common.utils.AppInfoParser - Kafka startTimeMs: 1762521521430
+[2025-11-07 22:18:41:1016468][kafka-admin-client-thread | board-admin-6] INFO  o.a.k.common.utils.AppInfoParser - App info kafka.admin.client for board-admin-6 unregistered
+[2025-11-07 22:18:41:1016469][kafka-admin-client-thread | board-admin-6] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+[2025-11-07 22:18:41:1016469][kafka-admin-client-thread | board-admin-6] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+[2025-11-07 22:18:41:1016469][kafka-admin-client-thread | board-admin-6] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+[2025-11-07 22:18:41:1016482][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8201"]
+[2025-11-07 22:18:41:1016486][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8201 (http) with context path '/'
+[2025-11-07 22:18:41:1016507][restartedMain] INFO  com.dssns.board.BoardApplication - Started BoardApplication in 3.74 seconds (process running for 1018.532)
+[2025-11-07 22:18:41:1016507][restartedMain] INFO  com.dssns.board.BoardApplication - Started BoardApplication in 3.74 seconds (process running for 1018.532)
+[2025-11-07 22:18:41:1016510][restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged

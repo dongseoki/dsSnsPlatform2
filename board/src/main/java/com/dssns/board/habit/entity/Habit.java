@@ -1,6 +1,7 @@
-package com.dssns.board.ordertemp.entity;
+package com.dssns.board.habit.entity;
 
 import com.dssns.common.entity.BaseEntity;
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
@@ -9,7 +10,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import lombok.AccessLevel;
@@ -30,7 +31,7 @@ import org.hibernate.annotations.DynamicUpdate;
 @SuperBuilder
 @AllArgsConstructor
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
-public class Subscription extends BaseEntity {
+public class Habit extends BaseEntity {
 
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -39,27 +40,44 @@ public class Subscription extends BaseEntity {
   @Column(name = "user_id", nullable = false)
   private Long userId;
 
-  @Column(name = "plan_type", nullable = false, length = 50)
-  private String planType;
+  @Column(nullable = false, length = 120)
+  private String title;
+
+  @Column(length = 500)
+  private String description;
 
   @Enumerated(EnumType.STRING)
-  @Column(nullable = false)
+  @Column(name = "goal_type", nullable = false)
+  private GoalType goalType;
+
+  @Column(name = "goal_value", nullable = false)
   @Builder.Default
-  private SubscriptionStatus status = SubscriptionStatus.TRIAL;
+  private Integer goalValue = 1;
 
   @Column(name = "start_date", nullable = false)
-  private LocalDateTime startDate;
+  private LocalDate startDate;
 
-  @Column(name = "end_date")
-  private LocalDateTime endDate;
-
-  @Column(name = "trial_end_date")
-  private LocalDateTime trialEndDate;
-
-  @Column(name = "cancelled_at")
-  private LocalDateTime cancelledAt;
-
-  @OneToMany(mappedBy = "subscription")
+  @Enumerated(EnumType.STRING)
+  @Column(name = "repeats_type", nullable = false)
   @Builder.Default
-  private List<OrderPayment> orderPayments = new ArrayList<>();
+  private RepeatsType repeatsType = RepeatsType.DAY;
+
+  @Column(name = "repeat_every_value", nullable = false)
+  @Builder.Default
+  private Integer repeatEveryValue = 1;
+
+  @Column(name = "repeat_detail_info", length = 1000)
+  private String repeatDetailInfo;
+
+  @Column(length = 500)
+  private String tags;
+
+  @Column(name = "is_active", nullable = false)
+  @Builder.Default
+  private Boolean isActive = true;
+
+  @Builder.Default
+  @OneToMany(mappedBy = "habit", cascade = CascadeType.ALL, orphanRemoval = true)
+  private List<HabitLog> habitLogs = new ArrayList<>();
 }
+

@@ -39,6 +39,19 @@ public class User extends BaseEntity {
   private Long id;
   private String email;
   private String password;
+
+  @Column(name = "password_hash")
+  private String passwordHash;
+
+  @Column(name = "name", length = 100)
+  private String name;
+
+  @Column(length = 30)
+  private String phone;
+
+  @Column(name = "current_plan", length = 50)
+  private String currentPlan;
+
   private String userId;
   private String nickname;
 
